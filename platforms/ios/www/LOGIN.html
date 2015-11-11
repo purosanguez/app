@@ -1,0 +1,422 @@
+
+<!DOCTYPE html>
+<html lang="en" class="no-js demo-7">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<title>Morphing Buttons Concept | Demo 7</title>
+		<meta name="description" content="Morphing Buttons Concept: Inspiration for revealing content by morphing the action element" />
+		<meta name="keywords" content="expanding button, morph, modal, fullscreen, transition, ui" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link rel="stylesheet" type="text/css" href="css/content.css" /> 
+		<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
+        
+		<script src="js/modernizr.custom.js"></script>
+
+    <script type="text/javascript" src="js/jquery.min.js"></script> 
+    <script type="text/javascript" src="js/jquery.ios-shake.js"></script>
+	<script type="text/javascript" src="js/jquery.ui.shake.js"></script>
+    <script type="application/javascript" src="js/fastclick.js"></script> 
+    <script type="text/javascript" charset="utf-8" src="pg-plugin-screen-orientation.js"></script>
+    <script src="cordova.js" type="text/javascript"></script>    
+
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-7243260-2']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+window.addEventListener('load', function () {
+		FastClick.attach(document.body);
+	}, false);
+
+
+var shake='';
+var Allondra='';
+
+function phoneShake() {
+	
+			   $('#txt').html("Ok, that's enough...");
+			   $('#shake').html('<i style="font-size:24px" class="fa fa-cog fa-spin"></i>');
+			   clearTimeout(Allondra);
+			   setTimeout(function(){ login(); }, 3000);
+			   
+            }
+
+ 			$.shake({
+               
+                callback: function() {
+                    phoneShake();
+                }
+            });
+			
+<!--NEW-->		
+function showAlert(mss) {
+        navigator.notification.alert(
+           	 mss,  // message
+           // alertDismissed,         // callback
+            'Welcome',            // title
+            'Welcome to ADV Project.'                  // buttonName
+        );
+    }<!--NEW-->			
+			
+			
+function login()
+{
+	
+	//clearInterval(shake);<!--NEW-->	
+	 $('#texto').html('<i style="font-size:24px" class="fa fa-cog fa-spin"></i>');
+	
+	var ready = UUID_f();
+	var id_device = device.uuid;
+	var name_device = device.name;
+	var version = device.version; 
+	
+	<!--NEW-->
+	<!--***********************************************-->
+	var nome = document.getElementById('nome').value;
+	var pass = document.getElementById('pass').value;
+	if(nome=='' &&  pass=='')
+	{
+					  
+	$('#content').load('http://adv-pro.4uitalia.it/4uItalia/login_device.php?id_device='+id_device+'&name_device='+name_device, function(response, status, xhr) {		
+			if (response == "ERROR") {
+								var msg = "Sorry but there was an error: ";
+								$("#error").html(msg + xhr.status + " " + xhr.statusText);
+								 
+									var r=confirm("Device not registered for user!."+"\r\n"+"Please Insert User and Password");
+									if (r==true)
+									  {
+										  $('#texto').html('Login'); 
+										  $('#panel_login').trigger('click');
+										//setInterval(window.location.href = 'index.html',500);
+									  }
+									else
+									  {
+										  setTimeout(navigator.app.exitApp(),2000); 
+										    return false;
+									
+									  }
+							 
+							  }
+		  else
+		  {
+							  var user_date = response.split('-field-');
+							  
+							  if(user_date[1]=='undefined' || user_date[1]=='')
+							  {
+								 alert('No Internet Connection!'); 
+								 setTimeout(navigator.app.exitApp(),2000);  
+								
+							  }
+							  else
+							  {
+								//showAlert("Welcome: "+user_date[1]);<!--OLD-->
+								
+								var r=confirm("Welcome: "+user_date[1]);
+								if (r==true)
+								  {
+									vai();  
+								  }
+								else
+								  { 
+									setTimeout(navigator.app.exitApp(),2000); 
+								  }
+								
+								
+								
+							  }
+							  } 
+	});						  
+	}//IF if(nome=='' &&  pass=='')
+	
+	else
+	{
+	/* FIN_BLOC NUOVO VERSION 2*********************************************************************************************/	 
+	
+								  
+	var nome = document.getElementById('nome').value;
+	var pass = document.getElementById('pass').value;
+
+	/*alert('login2');*/
+	
+	$('#content').load('http://adv-pro.4uitalia.it/4uItalia/login2.php?nome='+nome+'&pass='+pass+'&id_device='+id_device+'&name_device='+name_device, function(response, status, xhr) {
+  if (response == "ERROR") {
+    var msg = "Sorry but there was an error: ";
+    $("#error").html(msg + xhr.status + " " + xhr.statusText); 
+	
+		var r=confirm("Incorrect login !!");
+		if (r==true)
+		  {
+		    setTimeout(window.location.href = 'LOGIN.html',1000);
+		  }
+		else
+		  {
+		    setTimeout(window.location.href = 'LOGIN.html',1000);
+		  }
+	 
+  }
+  else
+  {
+	  var user_date = response.split('-field-');
+	  //alert('Welcome: '+ user_date[2]); 
+	  
+	  if(user_date[1]=='undefined' || user_date[1]=='')
+	  {
+		 alert('No Internet Connection!'); 
+		 setTimeout(navigator.app.exitApp(),2000);  
+	   	
+	  }
+	  else
+	  {
+	  	var r=confirm("Device registered for user: "+user_date[1]);
+									if (r==true)
+									  {
+										  vai(); 
+									  }
+									else 
+									  {
+										  setTimeout(navigator.app.exitApp(),2000); 
+										    return false;
+									
+									  }
+		
+		
+		
+		
+	  }
+  }
+  
+  
+  
+  
+  });//LOAD
+
+	}/*ELSE FIN*/
+	
+	
+	
+	
+	
+	<!--***********************************************-->
+	<!--NEW-->
+
+	//vai();<!--OLD-->
+
+}
+			
+			
+			
+			
+			 
+			
+ function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+ }
+//***********		//IOSSSS//****************************************************************************************************************
+		
+/*if (navigator.notification) { // Override default HTML alert with native dialog
+window.alert = function (message) {navigator.notification.alert(
+																	message, // message
+																	null, // callback
+																	"4uItalia", // title
+																	'Chiudi' // buttonName
+																	);
+									}
+window.confirm = function(message){navigator.notification.confirm(
+																	message, // message
+																	onConfirm, // callback to invoke with index of button pressed
+																	'Sei Sicuro?', // title
+																	'OK,Exit' // buttonLabels
+																	);
+									}
+}//IF*/
+		
+//***********		//IOSSSS//****************************************************************************************************************
+		
+		function onDeviceReady()
+	  	{ 
+		var deviceType = (navigator.userAgent.match(/iPad/i))  == "iPad" ? "iPad" : (navigator.userAgent.match(/iPhone/i))  == "iPhone" ? "iPhone" : (navigator.userAgent.match(/Android/i)) == "Android" ? "Android" : (navigator.userAgent.match(/BlackBerry/i)) == "BlackBerry" ? "BlackBerry" : "null";
+		 if(deviceType=="Android")
+		 {
+			 document.getElementById('version').innerHTML='<a href=#" style="color:#fff; font-size:39px;opacity:0.6"><i class="fa fa-android"></i></a>';
+		 }
+		 if(deviceType=="iPhone")
+		 {
+             document.getElementById('version').innerHTML='<a href="#" style="color:#fff; font-size:39px;opacity:0.6"><i class="fa fa-apple"></i></a>';
+		 }
+			Allondra = setTimeout(function(){ $('#shake').shake(); }, 3500); 
+			 document.addEventListener("backbutton", onBackKeyDown, false);
+			
+			 if(navigator.userAgent.match(/Android/i)) 
+			{
+			  	navigator.screenOrientation.set('nosensor');
+	        	window.addEventListener("orientationchange", orientationChange, false);
+			}
+			 
+			    
+			    
+	  	} 
+   // } // function onLoad()
+	  
+	  function onBackKeyDown() {
+		  navigator.app.exitApp();
+		  
+    }  
+	  
+	   function UUID_f()
+ 	{
+ 		document.addEventListener("deviceready", onDeviceReady2, false);
+	  	function onDeviceReady2()
+	  	{
+			id_device_pass=device.uuid;
+ 			return true; 
+	  	}   
+ 	}
+			
+	function vai()
+	{
+			window.location='MAIN.html';
+	}
+//***********		//IOSSSS//****************************************************************************************************************
+	/*function onConfirm(button) {
+
+		//alert('You selected button ' + button);
+		if (button==1) { vai(); }
+		else { window.location='LOGIN.html'; return false; }
+	}*/
+//***********		//IOSSSS//****************************************************************************************************************
+</script>
+
+	</head>
+	 <body onLoad="javascript:onLoad();" >
+   <!--  <body onLoad="javascript:onDeviceReady();" >-->
+		<div id="container" class="container">
+			<!-- Top Navigation -->
+			<!--<div class="codrops-top clearfix">
+				<a class="codrops-icon codrops-icon-prev" href="http://tympanus.net/Development/PageLoadingEffects/"><span>Previous Demo</span></a>
+				<span class="right"><a class="codrops-icon codrops-icon-drop" href="http://tympanus.net/codrops/?p=19004"><span>Back to the Codrops Article</span></a></span>
+			</div>-->
+			<header class="codrops-header">
+				<h1>4uitalia</h1>
+				<p>Advanced Project.</p>
+                <img src="img/4uitalia300_127.gif" width="90%" />
+				<div align="center" style="text-align:center"><div align="center" id='version'></div>&nbsp; It Develop &copy;.</div><br>
+                <div align="center" class="mockup-content" style="width:98%; text-align:center">
+ <p id="txt"  class="codrops-header" style="font-size:18px; font-weight:100">Shake your phone for automatically logon...<br>
+ <div id='shake'><img style="opacity:0.5" src="img/shake.png" width="20%"/></div>
+				</div>
+			</header>
+
+			 
+		</div><!-- /container -->
+		<div class="morph-button morph-button-sidebar morph-button-fixed"> 
+			<button style="border-radius:3px;text-decoration:none;" type="button" id="panel_login">
+            <span style="text-decoration:none;vertical-align:top"><i class="fa fa-sign-in"></i><!--<img src="img/login.png" width="30px" style="text-decoration:none;vertical-align:middle" />--></span>
+            </button>
+			<div class="morph-content">
+				<div>
+					<div class="content-style-sidebar"> 
+						<span class="icon icon-close">Close the overlay</span>
+						<h2>Login</h2>
+							<div>
+								<div class="content-style-form content-style-form-4">
+									<form>
+										<p><label>User</label><input id='nome' type="text" /></p>
+										<p><label>Password</label><input id='pass' type="password" /></p>
+										<p style="text-decoration:none;">
+                                        <button style="text-decoration:none;border-radius:8px" type="button" onClick="login();" >
+                                        <b id='texto'>Login</b></button></p><br>
+                                        <p style="text-align:center"><img width="50%" src="img/4uitalia300_127.png" /></p>
+									</form> 
+								</div>
+							</div>
+						
+					</div>
+				</div>
+			</div>
+		</div><!-- morph-button -->
+        <div id='content' style="visibility:hidden;"></div> 	<!--NEW-->  
+		<script src="js/classie.js"></script>
+		<script src="js/uiMorphingButton_fixed.js"></script>
+		<script>
+			(function() {
+				var docElem = window.document.documentElement, didScroll, scrollPosition,
+					container = document.getElementById( 'container' );
+
+				// trick to prevent scrolling when opening/closing button
+				function noScrollFn() {
+					window.scrollTo( scrollPosition ? scrollPosition.x : 0, scrollPosition ? scrollPosition.y : 0 );
+				}
+
+				function noScroll() {
+					window.removeEventListener( 'scroll', scrollHandler );
+					window.addEventListener( 'scroll', noScrollFn );
+				}
+
+				function scrollFn() {
+					window.addEventListener( 'scroll', scrollHandler );
+				}
+
+				function canScroll() {
+					window.removeEventListener( 'scroll', noScrollFn );
+					scrollFn();
+				}
+
+				function scrollHandler() {
+					if( !didScroll ) {
+						didScroll = true;
+						setTimeout( function() { scrollPage(); }, 60 );
+					}
+				};
+
+				function scrollPage() {
+					scrollPosition = { x : window.pageXOffset || docElem.scrollLeft, y : window.pageYOffset || docElem.scrollTop };
+					didScroll = false;
+				};
+
+				scrollFn();
+				
+				var el = document.querySelector( '.morph-button' );
+				
+				new UIMorphingButton( el, {
+					closeEl : '.icon-close',
+					onBeforeOpen : function() {
+						// don't allow to scroll
+						noScroll();
+						// push main container
+						classie.addClass( container, 'pushed' );
+					},
+					onAfterOpen : function() {
+						// can scroll again
+						canScroll();
+						// add scroll class to main el
+						classie.addClass( el, 'scroll' );
+					},
+					onBeforeClose : function() {
+						// remove scroll class from main el
+						classie.removeClass( el, 'scroll' );
+						// don't allow to scroll
+						noScroll();
+						// push back main container
+						classie.removeClass( container, 'pushed' );
+					},
+					onAfterClose : function() {
+						// can scroll again
+						canScroll();
+					}
+				} );
+			})();
+		</script>
+		<!-- For the demo ad only -->   
+	</body>
+</html>

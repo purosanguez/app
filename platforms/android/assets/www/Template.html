@@ -1,0 +1,657 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<title>Page Loading Effects | Demo 11</title>
+		<meta name="description" content="Page Loading Effects: Modern ways of revealing new content" />
+		<meta name="keywords" content="page loading, svg animation, loading effect, fullscreen svg" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+        <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo_main.css" />
+		<link rel="stylesheet" type="text/css" href="css/component_load.css" />
+        <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
+      
+        <link rel="stylesheet" type="text/css" href="css/dropdown.css" />
+  <script src="js/snap.svg-min.js"></script>
+   <script type="text/javascript" charset="utf-8" src="pg-plugin-screen-orientation.js"></script>
+<script src="cordova.js" type="text/javascript"></script>
+ 
+<script type="text/javascript">
+	 
+function querySt(ji) {
+hu = window.location.search.substring(1);
+gy = hu.split("&");
+for (i=0;i<gy.length;i++) {
+ft = gy[i].split("=");
+if (ft[0] == ji) {
+return ft[1];
+}
+}
+} 
+
+
+function padoct() { 
+	document.getElementById('padoct').innerHTML='<i class="fa fa-spinner fa-spin"></i> <b style="font-size:14px;">go to Home</b>';
+	document.getElementById('padoct2').innerHTML='<i class="fa fa-spinner fa-spin"></i> <b style="font-size:14px;">go to Home</b>';
+	document.getElementById('padoct3').innerHTML='<i class="fa fa-spinner fa-spin"></i> <b style="font-size:14px;">go to Home</b>';
+               
+			  setTimeout(function(){window.location='MAIN.html'; }, 100);            
+}
+
+/*function init() {
+	window.addEventListener("orientationchange", orientationChange, true);
+		 //window.addEventListener
+	//alert('init fatto');
+}*/
+
+
+
+function orientationChange(e) { 
+ var orientation="portrait";
+ var url_actual='';
+ var diver='';
+ if(window.orientation == -90 || window.orientation == 90) orientation = "landscape";
+ //alert('AKI:'+orientation);
+
+			if(orientation == "landscape")
+			{
+				document.getElementById('portrait').style.display='none';
+				document.getElementById('content_menu_pageone').style.display='none';
+				document.getElementById('landscape').style.display='block';
+				
+				document.getElementById('portrait_month').style.display='none';
+				document.getElementById('content_menu_pagetwo').style.display='none';
+				document.getElementById('landscape_month').style.display='block';
+				
+				document.getElementById('portrait_annual').style.display='none';
+				document.getElementById('content_menu_pagetre').style.display='none';
+				document.getElementById('landscape_annual').style.display='block';
+				
+				/*document.getElementById('btn_rotate').style.display='none';	
+				document.getElementById('btn_rotate_M').style.display='none';	 
+				document.getElementById('btn_rotate_A').style.display='none';*/
+			}
+			else
+			{
+				 window.scrollTo(0, 0);
+				document.getElementById('portrait').style.display='block';
+				document.getElementById('content_menu_pageone').style.display='block';
+				document.getElementById('landscape').style.display='none';	
+				
+				document.getElementById('portrait_month').style.display='block';
+				document.getElementById('content_menu_pagetwo').style.display='block';
+				document.getElementById('landscape_month').style.display='none';
+				
+				document.getElementById('portrait_annual').style.display='block';
+				document.getElementById('content_menu_pagetre').style.display='block';
+				document.getElementById('landscape_annual').style.display='none';
+				
+				/*document.getElementById('btn_rotate').style.display='block';
+				document.getElementById('btn_rotate_M').style.display='block';
+				document.getElementById('btn_rotate_A').style.display='block';*/
+			}
+}
+
+
+ 
+function orientationChange_force() { 
+       // var orientation=e;
+ 
+       //navigator.screenOrientation.set('landscape');
+	   
+ 
+        navigator.screenOrientation.set('fullSensor');
+	    window.addEventListener("orientationchange", orientationChange, true);
+		
+		document.getElementById('btn_rotate').innerHTML="<a onClick='orientationChange_force_null();' style='background-color:#066; color:#FFF;'>&nbsp;&nbsp;&nbsp;&nbsp;Force Rotate On&nbsp;&nbsp;&nbsp;&nbsp;<i style='font-size:16px' class='fa fa-undo'></i>&nbsp;&nbsp;&nbsp;&nbsp;</a>";
+		
+		document.getElementById('btn_rotate_M').innerHTML="<a onClick='orientationChange_force_null();' style='background-color:#066; color:#FFF;'>&nbsp;&nbsp;&nbsp;&nbsp;Force Rotate On&nbsp;&nbsp;&nbsp;&nbsp;<i style='font-size:16px' class='fa fa-undo'></i>&nbsp;&nbsp;&nbsp;&nbsp;</a>";
+		
+		document.getElementById('btn_rotate_A').innerHTML="<a onClick='orientationChange_force_null();' style='background-color:#066; color:#FFF;'>&nbsp;&nbsp;&nbsp;&nbsp;Force Rotate On&nbsp;&nbsp;&nbsp;&nbsp;<i style='font-size:16px' class='fa fa-undo'></i>&nbsp;&nbsp;&nbsp;&nbsp;</a>";
+
+			
+}
+
+function orientationChange_force_null()
+{
+	
+      /*  navigator.screenOrientation.set('nosensor');
+	    window.addEventListener("orientationchange", orientationChange, true);*/
+		
+		 if(window.orientation == -90 || window.orientation == 90)
+		 {
+			 orientacion = "landscape";
+			 navigator.screenOrientation.set(orientacion);
+		 }
+		 else
+		 {
+			 orientacion = "portrait";
+			 navigator.screenOrientation.set(orientacion);
+		 }
+		
+		document.getElementById('btn_rotate').innerHTML="<a onClick='orientationChange_force();' style='color:#066; opacity:0.5'>&nbsp;&nbsp;&nbsp;&nbsp;Force Rotate Off&nbsp;&nbsp;&nbsp;&nbsp;<i style='font-size:16px' class='fa fa-undo'></i>&nbsp;&nbsp;&nbsp;&nbsp;</a>";
+		
+		document.getElementById('btn_rotate_M').innerHTML="<a onClick='orientationChange_force();' style='color:#066; opacity:0.5'>&nbsp;&nbsp;&nbsp;&nbsp;Force Rotate Off&nbsp;&nbsp;&nbsp;&nbsp;<i style='font-size:16px' class='fa fa-undo'></i>&nbsp;&nbsp;&nbsp;&nbsp;</a>";
+		
+		document.getElementById('btn_rotate_A').innerHTML="<a onClick='orientationChange_force();' style='color:#066; opacity:0.5'>&nbsp;&nbsp;&nbsp;&nbsp;Force Rotate Off&nbsp;&nbsp;&nbsp;&nbsp;<i style='font-size:16px' class='fa fa-undo'></i>&nbsp;&nbsp;&nbsp;&nbsp;</a>";
+}
+
+
+
+
+
+function dumb()
+{
+	document.getElementById('paco_template').focus(); 
+		        setTimeout(function(){visible('page-2'); }, 2000);//3500
+}
+</script> 
+        <!--[if IE]>
+  		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]--> 
+	</head> 
+<!--<body style="background-color:#066"  onLoad="javascript:dumb()" >  -->
+<body style="background-color:#066"  onLoad="javascript:onLoad();" >  
+ 
+		<div id="pagewrap" class="pagewrap">
+			<!--<div class="container show" id="page-1" onClick="vaireload();" style="visibility:visible; height:2000px; background:#066; opacity:0.9">-->
+            <div class="container show" id="page-1" style="visibility:visible; height:2000px; background:#066; opacity:0.9">
+				<!-- Top Navigation -->
+
+<a id='paco_template' style="color:#fff; text-decoration:none;" class="pageload-link" href="#page-2"></a>
+<br>
+<br> 
+<br>
+<br> 
+<br>
+<br>  
+<br>
+<br> 
+<br>
+<br>
+<br>
+<br> 
+<div id='div_main' align="center" style="text-align:center">
+<a id='aloading' href="MAIN.html" style="color:#fff; font-size:30px; display:block"><i style="font-size:34px" class="fa fa-cog fa-spin"></i>&nbsp;Loading...</a>
+<a id='atouch' style="color:#fff; font-size:50px;line-height: 1.25;font-weight: 300;font-family: 'Lato', Arial, sans-serif;display:none">&nbsp;Touch the screen to reload the App</a>	
+</div>	
+			</div><!-- /container --> 
+
+
+
+<!--NEW-->
+	<!--**********************************************   CONTENT     ************************************************************-->
+
+
+<div class="container" id="page-2" style="visibility:hidden; text-align:center">
+				
+            
+                <!--DATOS PROJECTOS-->
+                     
+ <div data-role="page" id="pageone">
+                 <div class="content" id='content_menu_pageone' style="display:block">
+					<nav id="menu" class="menu">
+						<div class="morph-shape-menu" data-morph-open="M260,500H0c0,0,8-120,8-250C8,110,0,0,0,0h260c0,0-8,110-8,250C252,380,260,500,260,500z">
+							<svg width="100%" height="100%" viewBox="0 0 260 500" preserveAspectRatio="none">
+								<path fill="none" d="M260,500H0c0,0,0-120,0-250C0,110,0,0,0,0h260c0,0,0,110,0,250C260,380,260,500,260,500z"/>
+							</svg>
+						</div>
+                        <button style="box-shadow:none" class="menu__label">
+                        <table width="100%">
+                        <tr><td><i class="fa fa-fw fa-bars"></i><span>Open Menu</span></td> 
+                         <td style="text-align:right"><div id="padoct" onClick="padoct();orientationChange_force_null();">
+                         <i class="fa fa-arrow-left" onClick="padoct();orientationChange_force_null();"></i>
+                         <span id='effect' onClick="padoct();orientationChange_force_null();'">Home</span></div> 
+                         </td></tr></table>
+                         </button>
+						<ul class="menu__inner">
+							<li onClick="orientationChange_force_null();window.location='MAIN.html'">
+                            <a href="#"><i class="fa fa-fw fa-puzzle-piece"></i><span>PROJECTS</span></a></li>
+                            <li onClick="orientationChange_force_null();window.location='CONTACTS.html'"><a href="#"><i class="fa fa-fw fa-male"></i><span>CONTACTS</span></a></li>
+                            <li onClick="orientationChange_force_null();window.location='MAIN.html'">
+                            <a href="#"><i class="fa fa-fw fa fa-refresh"></i><span>REFRESH APP</span></a></li>
+							<li onClick="orientationChange_force_null();window.location='NOTIFICATIONS.html'"><a href="#"><i class="fa fa-fw fa-bell-o"></i><span id='numero'>NOTIFICATIONS</span></a></li>
+                            <li><a href="#" style="text-decoration:none;">
+                            <i class="fa fa-fw fa-times"></i><span style="text-decoration:none;">CLOSE MENU</span></a></li>
+                            <li><i></i><span><br></span></li>
+                            <li onClick="orientationChange_force_null();window.location='cargaeffect_logout.html'">
+                            <a href="#" style="text-decoration:none;"><i class="fa fa-sign-out"></i><span style="text-decoration:none;">LOGOUT</span></a>
+                            </li>
+						</ul>
+					</nav>
+				</div>
+            <!--   MENU<br><br><br>--> 
+  <div data-role="header" style="width:96%; margin-left:2%;border:solid 1px #FFF;border-radius:3px; display:block">
+   <h1>Daily</h1>
+  </div>
+
+   <div data-role="main" class="ui-content" style=" border:solid 1px #FFF;background-color:#f9f9f9; max-height:385px;min-height:300px;width:96%; margin-left:2%">
+   
+ <!--DATOS DAILY-->
+ <div id='Datos_template'><b style="color:#066">&nbsp;&nbsp;&nbsp;Data Loading Error...</b></div>
+	
+   </div>
+
+  <div data-role="footer" style="width:96%; margin-left:2%; text-align:center;border:solid 1px #FFF;border-radius:3px;"> 
+   &nbsp;
+    <a style="color:#066; opacity:0.8" id="Apagetre" href="#pagetre" data-transition="flow" data-direction="reverse"><i style="font-size:16px" class=" fa fa-reply"></i> &nbsp;Annual&nbsp; </a>
+    &nbsp; &nbsp; &nbsp;
+   
+  <a style="color:#066; opacity:0.8" id="Apagetwo" href="#pagetwo" data-transition="flow" >&nbsp;Monthly&nbsp;<i style="font-size:16px" class="fa fa-share"></i></a>
+	 &nbsp;
+  </div>
+  <br>
+
+<span id='btn_rotate' style=" display:block">
+<a onClick="orientationChange_force();" style="color:#066; opacity:0.5">&nbsp;&nbsp;&nbsp;&nbsp;Force Rotate Off&nbsp;&nbsp;&nbsp;&nbsp;<i style="font-size:16px" class="fa fa-undo"></i>&nbsp;&nbsp;&nbsp;&nbsp;</a>
+</span>
+
+</div> 
+  
+
+
+<div data-role="page" id="pagetwo" >
+                 <div class="content" id='content_menu_pagetwo' style="display:block">
+					<nav id="menu2" class="menu">
+						<div class="morph-shape-menu" data-morph-open="M260,500H0c0,0,8-120,8-250C8,110,0,0,0,0h260c0,0-8,110-8,250C252,380,260,500,260,500z">
+							<svg width="100%" height="100%" viewBox="0 0 260 500" preserveAspectRatio="none">
+								<path fill="none" d="M260,500H0c0,0,0-120,0-250C0,110,0,0,0,0h260c0,0,0,110,0,250C260,380,260,500,260,500z"/>
+							</svg>
+						</div>
+                        <button style="box-shadow:none" class="menu__label">
+                         <table width="100%">
+                        <tr><td><i class="fa fa-fw fa-bars"></i><span>Open Menu</span></td> 
+                         <td style="text-align:right"><div id="padoct2" onClick="padoct();orientationChange_force_null();">
+                         <i class="fa fa-arrow-left" onClick="padoct();orientationChange_force_null();"></i>
+                         <span id='effect' onClick="padoct();orientationChange_force_null();'">Home</span></div> 
+                         </td></tr></table>
+                         </button>
+						<ul class="menu__inner">
+							<li onClick="orientationChange_force_null();window.location='MAIN.html'">
+                            <a href="#"><i class="fa fa-fw fa-puzzle-piece"></i><span>PROJECTS</span></a></li>
+                            <li onClick="orientationChange_force_null();window.location='CONTACTS.html'"><a href="#"><i class="fa fa-fw fa-male"></i><span>CONTACTS</span></a></li>
+                            <li onClick="orientationChange_force_null();window.location='MAIN.html'">
+                            <a href="#"><i class="fa fa-fw fa fa-refresh"></i><span>REFRESH APP</span></a></li>
+							<li onClick="orientationChange_force_null();window.location='NOTIFICATIONS.html'"><a href="#"><i class="fa fa-fw fa-bell-o"></i><span id='numero'>NOTIFICATIONS</span></a></li>
+                            <li><a href="#" style="text-decoration:none;">
+                            <i class="fa fa-fw fa-times"></i><span style="text-decoration:none;">CLOSE MENU</span></a></li>
+                            <li><i></i><span><br></span></li>
+                            <li onClick="orientationChange_force_null();window.location='cargaeffect_logout.html'">
+                            <a href="#" style="text-decoration:none;"><i class="fa fa-sign-out"></i><span style="text-decoration:none;">LOGOUT</span></a>
+                            </li>
+						</ul>
+					</nav>
+				</div>
+            <!--   MENU<br><br><br>--> 
+  <div data-role="header" style="width:96%; margin-left:2%;border:solid 1px #FFF;border-radius:3px;">
+   <h1>Monthly</h1>
+  </div>
+
+   <div data-role="main" class="ui-content" style=" border:solid 1px #FFF;background-color:#f9f9f9; max-height:385px;min-height:300px;width:96%; margin-left:2%">
+    <!--DATOS DAILY-->
+ <div id='Datos_template_month'><b style="color:#066">&nbsp;&nbsp;&nbsp;Data Loading Error...</b></div>
+ 
+  </div>
+
+  <div data-role="footer" style="width:96%; margin-left:2%; text-align:center;border:solid 1px #FFF;border-radius:3px;"> 
+   &nbsp;
+   <a style="color:#066; opacity:0.8" id="Apageone2" href="#pageone" data-transition="flow" data-direction="reverse"><i style="font-size:16px" class=" fa fa-reply"></i> &nbsp;&nbsp;Daily&nbsp;&nbsp;&nbsp; </a>
+    &nbsp; &nbsp; &nbsp;
+    <a style="color:#066; opacity:0.8" id="Apagetre2" href="#pagetre" data-transition="flow" >Annual &nbsp;<i style="font-size:16px" class="fa fa-share"></i></a>
+	 &nbsp; 
+  </div>
+  <br>
+  <span id='btn_rotate_M' style=" display:block">
+<a onClick="orientationChange_force();" style="color:#066; opacity:0.5">&nbsp;&nbsp;&nbsp;&nbsp;Force Rotate Off&nbsp;&nbsp;&nbsp;&nbsp;<i style="font-size:16px" class="fa fa-undo"></i>&nbsp;&nbsp;&nbsp;&nbsp;</a>
+</span>
+  
+</div> 
+
+<div data-role="page" id="pagetre" >
+                 <div class="content" id='content_menu_pagetre' style="display:block">
+					<nav id="menu3" class="menu">
+						<div class="morph-shape-menu" data-morph-open="M260,500H0c0,0,8-120,8-250C8,110,0,0,0,0h260c0,0-8,110-8,250C252,380,260,500,260,500z">
+							<svg width="100%" height="100%" viewBox="0 0 260 500" preserveAspectRatio="none">
+								<path fill="none" d="M260,500H0c0,0,0-120,0-250C0,110,0,0,0,0h260c0,0,0,110,0,250C260,380,260,500,260,500z"/>
+							</svg>
+						</div>
+                        <button style="box-shadow:none" class="menu__label">
+                         <table width="100%">
+                        <tr><td><i class="fa fa-fw fa-bars"></i><span>Open Menu</span></td> 
+                         <td style="text-align:right"><div id="padoct3" onClick="padoct();orientationChange_force_null();">
+                         <i class="fa fa-arrow-left" onClick="padoct();orientationChange_force_null();"></i>
+                         <span id='effect' onClick="padoct();orientationChange_force_null();'">Home</span></div> 
+                         </td></tr></table>
+                         </button>
+						<ul class="menu__inner">
+							<li onClick="orientationChange_force_null();window.location='MAIN.html'">
+                            <a href="#"><i class="fa fa-fw fa-puzzle-piece"></i><span>PROJECTS</span></a></li>
+                            <li onClick="orientationChange_force_null();window.location='CONTACTS.html'"><a href="#"><i class="fa fa-fw fa-male"></i><span>CONTACTS</span></a></li>
+                            <li onClick="orientationChange_force_null();window.location='MAIN.html'">
+                            <a href="#"><i class="fa fa-fw fa fa-refresh"></i><span>REFRESH APP</span></a></li>
+							<li onClick="orientationChange_force_null();window.location='NOTIFICATIONS.html'"><a href="#"><i class="fa fa-fw fa-bell-o"></i><span id='numero'>NOTIFICATIONS</span></a></li>
+                            <li><a href="#" style="text-decoration:none;">
+                            <i class="fa fa-fw fa-times"></i><span style="text-decoration:none;">CLOSE MENU</span></a></li>
+                            <li><i></i><span><br></span></li>
+                            <li onClick="orientationChange_force_null();window.location='cargaeffect_logout.html'">
+                            <a href="#" style="text-decoration:none;"><i class="fa fa-sign-out"></i><span style="text-decoration:none;">LOGOUT</span></a>
+                            </li>
+						</ul>
+					</nav>
+				</div>
+            <!--   MENU<br><br><br>--> 
+  <div data-role="header" style="width:96%; margin-left:2%;border:solid 1px #FFF;border-radius:3px;">
+   <h1>Annual</h1>
+  </div>
+
+ <div data-role="main" class="ui-content" style=" border:solid 1px #FFF;background-color:#f9f9f9; max-height:385px;min-height:300px;width:96%; margin-left:2%">
+       <!--DATOS DAILY-->
+ <div id='Datos_template_annual'><b style="color:#066">&nbsp;&nbsp;&nbsp;Data Loading Error...</b></div>
+ 
+
+  </div>
+
+  <div data-role="footer" style="width:96%; margin-left:2%; text-align:center;border:solid 1px #FFF;border-radius:3px;">
+   &nbsp;
+   <a style="color:#066; opacity:0.8" id="Apagetwo3" href="#pagetwo" data-transition="flow" data-direction="reverse"><i style="font-size:16px" class=" fa fa-reply"></i>  &nbsp;Monthly</a>
+    
+    &nbsp; &nbsp; &nbsp;
+    <a style="color:#066; opacity:0.8" id="Apageone3" href="#pageone" data-transition="flow">&nbsp;&nbsp;&nbsp;&nbsp;Daily&nbsp;&nbsp;&nbsp;&nbsp;<i style="font-size:16px" class="fa fa-share"></i></a>
+	 &nbsp;
+  </div>
+  <br>
+  <span id='btn_rotate_A' style=" display:block">
+<a onClick="orientationChange_force();" style="color:#066; opacity:0.5">&nbsp;&nbsp;&nbsp;&nbsp;Force Rotate Off&nbsp;&nbsp;&nbsp;&nbsp;<i style="font-size:16px" class="fa fa-undo"></i>&nbsp;&nbsp;&nbsp;&nbsp;</a>
+</span>
+</div> 
+
+
+
+                  <!--DATOS template-->
+			</div>
+	<!--**********************************************   CONTENT     ************************************************************-->
+<!--NEW-->
+
+
+
+
+
+			<div id="loader" class="pageload-overlay" data-opening="m -5,-5 0,70 90,0 0,-70 z m 5,35 c 0,0 15,20 40,0 25,-20 40,0 40,0 l 0,0 C 80,30 65,10 40,30 15,50 0,30 0,30 z">
+				<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 80 60" preserveAspectRatio="none" >
+					<path d="m -5,-5 0,70 90,0 0,-70 z m 5,5 c 0,0 7.9843788,0 40,0 35,0 40,0 40,0 l 0,60 c 0,0 -3.944487,0 -40,0 -30,0 -40,0 -40,0 z"/>
+				</svg>
+			</div><!-- /pageload-overlay -->
+		
+		</div><!-- /pagewrap -->
+     
+         
+		<script type="text/javascript">
+		<!--$.ajaxSetup({dataType:"html"});-->
+ 
+	
+		 function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+		
+    }  
+	 
+	function onDeviceReady()
+	{
+	 
+	document.getElementById('page-1').addEventListener('touchmove', function(e) {
+                    e.preventDefault();
+                }, false);
+	 
+	   
+		var ismobile=(/Mobile/.test(navigator.userAgent))?1:0;
+		
+	    //ESTE IF ES SOLO PARA EL AVD
+		if(ismobile==0)  
+	    {	
+			//alert('ENTRA IF: '+ismobile);
+			//DESCOMENTAR ESTO PARA COMPILAR LA APK FINAL
+			//navigator.screenOrientation.set('landscape');
+			//DESCOMENTAR ESTO AL EJECUTAR EN EL AVD
+			navigator.screenOrientation.set('portrait');		//portrait
+		
+        }
+		//else{alert('ENTRA ELSE: '+ismobile);}
+	 
+	  var path_project = querySt("project");	
+	  var url ='http://adv-pro.4uitalia.it/4uItalia/APP/'+path_project+'/Daily.php';
+	  var timeout =   setTimeout(function(){showAlert('Server Timeout, try again in a few seconds.');window.location='MAIN.html'; }, 9000);
+	  $('#Datos_template').load(url, function(response, status, xhr) {		
+			if (response == "ERROR") 
+			{
+				alert('ERROR LOAD...');
+			}
+		    else
+		  	{
+				clearTimeout(timeout);
+				document.getElementById('paco_template').focus();
+		        setTimeout(function(){visible('page-2'); }, 1000);//3500
+				
+				  if(!navigator.userAgent.match(/Android/i))
+					  {
+						  document.getElementById('btn_rotate').style.display='none';
+						  document.getElementById('btn_rotate_M').style.display='none';
+						  document.getElementById('btn_rotate_A').style.display='none';
+						  
+					  }
+					  
+				load_monthly();
+				
+			} 
+	   });
+		
+		$("#page-1").on("tap",function(){
+			//alert('tap');
+  			 vaireload();
+ 		 }); 
+		
+	} 
+
+ function load_monthly()
+ {
+	  var path_project = querySt("project");	
+	  var url ='http://adv-pro.4uitalia.it/4uItalia/APP/'+path_project+'/Monthly.php';
+	  var timeout =   setTimeout(function(){showAlert('Server Timeout, try again in a few seconds.');window.location='MAIN.html'; }, 9000);
+	  $('#Datos_template_month').load(url, function(response, status, xhr) {		
+			if (response == "ERROR") 
+			{
+				alert('ERROR LOAD...');
+			}
+		    else 
+		  	{ 
+				clearTimeout(timeout);
+				
+				load_annual();
+				/*document.getElementById('aloading').style.display='none';
+				document.getElementById('atouch').style.display='block';*/
+			} 
+	   });
+ }
+ 
+ function load_annual() 
+ {
+	  var path_project = querySt("project");	
+	  var url ='http://adv-pro.4uitalia.it/4uItalia/APP/'+path_project+'/Annual.php';
+	  var timeout =   setTimeout(function(){showAlert('Server Timeout, try again in a few seconds.');window.location='MAIN.html'; }, 9000);
+	  $('#Datos_template_annual').load(url, function(response, status, xhr) {		
+			if (response == "ERROR") 
+			{
+				alert('ERROR LOAD...');
+			}
+		    else 
+		  	{ 
+				clearTimeout(timeout);
+				document.getElementById('aloading').style.display='none';
+				document.getElementById('atouch').style.display='block';
+				orientationChange_force();
+			} 
+	   });
+ }
+
+ function visible(obj)
+ {
+	 document.getElementById(obj).style.visibility='visible';
+
+ }
+ 
+ function vaireload()
+ { 
+    var project = querySt("project");
+	window.location='Template.html?project='+project;
+ }
+ 
+function showAlert(mss) {
+        navigator.notification.alert(
+           	 mss,  // message
+           // alertDismissed,         // callback
+            'Server Timeout',            // title
+            'Server Timeout.'                  // buttonName
+        );
+    }
+ 
+ 			
+			
+			
+		</script>  
+		<script src="js/classie.js"></script>
+		<script src="js/svgLoader.js"></script>
+        <script src="js/jquery-1.11.2.min.js"></script>
+        <script src="js/jquery.mobile-1.4.5.min.js"></script>
+		<script>
+//$(document).on("pagecreate","#pageone",function(){
+	 
+$(document).ready(function(){ 	
+	 
+  $("#pageone").on( "swipeleft", swipeleftHandler );
+  $("#pageone").on( "swiperight", swiperightHandler );
+   function swipeleftHandler( event ){
+   // alert('LEFT');
+	 $( "#Apagetwo" ).click();
+  }
+  function swiperightHandler( event ){
+    //alert('RIGHT');
+	 $( "#Apagetre" ).click();
+	 
+  }
+  
+  $("#pagetwo").on( "swipeleft", swipeleftHandlertwo );
+  $("#pagetwo").on( "swiperight", swiperightHandlertwo );
+   function swipeleftHandlertwo( event ){
+   // alert('LEFT');
+	 $( "#Apagetre2" ).click();
+  }
+  function swiperightHandlertwo( event ){
+    //alert('RIGHT');
+	 $( "#Apageone2" ).click();
+	 
+  }
+  
+  $("#pagetre").on( "swipeleft", swipeleftHandlertre );
+  $("#pagetre").on( "swiperight", swiperightHandlertre );
+   function swipeleftHandlertre( event ){
+   // alert('LEFT');
+	 $( "#Apageone3" ).click();
+  }
+  function swiperightHandlertre( event ){
+    //alert('RIGHT');
+	 $( "#Apagetwo3" ).click();
+	 
+  }
+  
+                        
+});
+			(function() {
+				var pageWrap = document.getElementById( 'pagewrap' ),
+					pages = [].slice.call( pageWrap.querySelectorAll( 'div.container' ) ),
+					currentPage = 0,
+					triggerLoading = [].slice.call( pageWrap.querySelectorAll( 'a.pageload-link' ) ),
+					loader = new SVGLoader( document.getElementById( 'loader' ), { speedIn : 750, easingIn : mina.easeinout } );//1000
+
+				function init() {
+					triggerLoading.forEach( function( trigger ) {
+						trigger.addEventListener( 'focus', function( ev ) {
+							ev.preventDefault();  
+							loader.show(); 
+							// after some time hide loader
+							setTimeout( function() {
+								loader.hide(); 
+								classie.removeClass( pages[ currentPage ], 'show' );
+								// update..
+								currentPage = currentPage ? 0 : 1;
+								classie.addClass( pages[ currentPage ], 'show' );
+							}, 1700 );//5000
+						} );
+					} );	
+				}
+		init(); 
+
+			})();
+			
+			(function() {
+
+				function SVGDDMenu( el, options ) {
+					this.el = el;
+					this.init();
+				}
+
+				SVGDDMenu.prototype.init = function() {
+					this.shapeEl = this.el.querySelector( 'div.morph-shape-menu' );
+
+					var s = Snap( this.shapeEl.querySelector( 'svg' ) );
+					this.pathEl = s.select( 'path' );
+					this.paths = {
+						reset : this.pathEl.attr( 'd' ),
+						open : this.shapeEl.getAttribute( 'data-morph-open' )
+					};
+
+					this.isOpen = false;
+
+					this.initEvents();
+				};
+
+				SVGDDMenu.prototype.initEvents = function() {
+					this.el.addEventListener( 'click', this.toggle.bind(this) );
+						
+					// For Demo purposes only
+					[].slice.call( this.el.querySelectorAll('a') ).forEach( function(el) {
+						el.onclick = function() { return false; }
+					} );
+				};
+
+				SVGDDMenu.prototype.toggle = function() {
+					var self = this;
+
+					if( this.isOpen ) {
+						classie.remove( self.el, 'menu--open' );
+					}
+					else {
+						classie.add( self.el, 'menu--open' );
+					}
+
+					this.pathEl.stop().animate( { 'path' : this.paths.open }, 320, mina.easeinout, function() {
+						self.pathEl.stop().animate( { 'path' : self.paths.reset }, 1000, mina.elastic );
+					} );
+
+					this.isOpen = !this.isOpen;	
+				};
+
+				new SVGDDMenu( document.getElementById( 'menu' ) );
+				new SVGDDMenu( document.getElementById( 'menu2' ) );
+				new SVGDDMenu( document.getElementById( 'menu3' ) );
+
+			})();
+			
+</script>
+
+		  
+
+	</body>
+</html>

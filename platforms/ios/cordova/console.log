@@ -1,0 +1,930 @@
+2015-03-13 14:50:34.777 4uitaliaAPP[15701:11922698] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Data/Application/A61F2A47-528C-49EC-A6A3-F0B4067732EE/Library/Cookies/Cookies.binarycookies
+2015-03-13 14:50:35.612 4uitaliaAPP[15701:11922698] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-13 14:50:35.612 4uitaliaAPP[15701:11922698] Multi-tasking -> Device: YES, App: YES
+2015-03-13 14:50:35.652 4uitaliaAPP[15701:11922698] Unlimited access to network resources
+2015-03-13 14:50:35.708 4uitaliaAPP[15701:11922698] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-13 14:50:38.640 4uitaliaAPP[15701:11922698] Resetting plugins due to page load.
+2015-03-13 14:50:39.349 4uitaliaAPP[15701:11922698] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/4B6C80A3-5D00-40EC-B1E0-8AD3E7AF97A7/4uitaliaAPP.app/www/index.html
+2015-03-13 14:50:39.448 4uitaliaAPP[15701:11922698] THREAD WARNING: ['Device'] took '12.473877' ms. Plugin should use a background thread.
+2015-03-13 14:50:39.453 4uitaliaAPP[15701:11922698] Received Event: deviceready
+2015-03-13 14:56:22.743 4uitaliaAPP[15969:11950047] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Data/Application/895E70C1-B69E-4891-B5D5-7C67C62F27BE/Library/Cookies/Cookies.binarycookies
+2015-03-13 14:56:22.892 4uitaliaAPP[15969:11950047] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-13 14:56:22.892 4uitaliaAPP[15969:11950047] Multi-tasking -> Device: YES, App: YES
+2015-03-13 14:56:22.912 4uitaliaAPP[15969:11950047] Unlimited access to network resources
+2015-03-13 14:56:22.927 4uitaliaAPP[15969:11950047] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-13 14:56:23.258 4uitaliaAPP[15969:11950047] Resetting plugins due to page load.
+2015-03-13 14:56:23.665 4uitaliaAPP[15969:11950047] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/93BC2F25-B649-41FA-A2DC-481CBF17C403/4uitaliaAPP.app/www/index.html
+2015-03-13 14:59:34.532 4uitaliaAPP[16172:11964881] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Data/Application/D1E30624-30F5-402D-BBC4-9F9A2D008556/Library/Cookies/Cookies.binarycookies
+2015-03-13 14:59:34.679 4uitaliaAPP[16172:11964881] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-13 14:59:34.680 4uitaliaAPP[16172:11964881] Multi-tasking -> Device: YES, App: YES
+2015-03-13 14:59:34.702 4uitaliaAPP[16172:11964881] Unlimited access to network resources
+2015-03-13 14:59:34.725 4uitaliaAPP[16172:11964881] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-13 14:59:34.857 4uitaliaAPP[16172:11964881] ERROR: Start Page at 'www/index.html' was not found.
+2015-03-13 14:59:35.079 4uitaliaAPP[16172:11964881] Resetting plugins due to page load.
+2015-03-13 14:59:35.110 4uitaliaAPP[16172:11964881] Finished load of: about:blank
+2015-03-13 15:00:36.869 4uitaliaAPP[16361:11970497] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Data/Application/0C2F9C09-7B19-49F5-BB8B-97BA3C73DE20/Library/Cookies/Cookies.binarycookies
+2015-03-13 15:00:37.031 4uitaliaAPP[16361:11970497] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-13 15:00:37.032 4uitaliaAPP[16361:11970497] Multi-tasking -> Device: YES, App: YES
+2015-03-13 15:00:37.054 4uitaliaAPP[16361:11970497] Unlimited access to network resources
+2015-03-13 15:00:37.057 4uitaliaAPP[16361:11970497] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-13 15:00:37.251 4uitaliaAPP[16361:11970497] Resetting plugins due to page load.
+2015-03-13 15:00:38.415 4uitaliaAPP[16361:11970497] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/1B46AA87-6A81-4572-BABE-B5DB0EB52D49/4uitaliaAPP.app/www/LOGIN.html
+2015-03-13 15:13:51.332 4uitaliaAPP[17062:12051098] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-13 15:13:51.339 4uitaliaAPP[17062:12051098] Multi-tasking -> Device: YES, App: YES
+2015-03-13 15:13:51.365 4uitaliaAPP[17062:12051098] Unlimited access to network resources
+2015-03-13 15:13:51.385 4uitaliaAPP[17062:12051098] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-13 15:13:52.118 4uitaliaAPP[17062:12051098] Resetting plugins due to page load.
+2015-03-13 15:13:52.877 4uitaliaAPP[17062:12051098] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/ADF5F6D9-B70B-4BD3-B12A-717731CA212B/4uitaliaAPP.app/www/LOGIN.html
+2015-03-13 15:21:26.337 4uitaliaAPP[17267:12079245] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-13 15:21:26.362 4uitaliaAPP[17267:12079245] Multi-tasking -> Device: YES, App: YES
+2015-03-13 15:21:26.380 4uitaliaAPP[17267:12079245] Unlimited access to network resources
+2015-03-13 15:21:26.405 4uitaliaAPP[17267:12079245] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-13 15:21:26.822 4uitaliaAPP[17267:12079245] Resetting plugins due to page load.
+2015-03-13 15:21:27.180 4uitaliaAPP[17267:12079245] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/ACE813FB-34D9-4B43-BA89-50B89351601B/4uitaliaAPP.app/www/LOGIN.html
+2015-03-13 15:30:31.806 4uitaliaAPP[17777:12106774] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-13 15:30:31.839 4uitaliaAPP[17777:12106774] Multi-tasking -> Device: YES, App: YES
+2015-03-13 15:30:31.888 4uitaliaAPP[17777:12106774] Unlimited access to network resources
+2015-03-13 15:30:31.917 4uitaliaAPP[17777:12106774] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-13 15:30:32.763 4uitaliaAPP[17777:12106774] Resetting plugins due to page load.
+2015-03-13 15:30:33.392 4uitaliaAPP[17777:12106774] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/436198B2-5B52-4F31-B62D-0AC75C52A2DC/4uitaliaAPP.app/www/LOGIN.html
+2015-03-13 15:32:21.840 4uitaliaAPP[17966:12119495] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-13 15:32:21.842 4uitaliaAPP[17966:12119495] Multi-tasking -> Device: YES, App: YES
+2015-03-13 15:32:21.855 4uitaliaAPP[17966:12119495] Unlimited access to network resources
+2015-03-13 15:32:21.859 4uitaliaAPP[17966:12119495] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-13 15:32:22.044 4uitaliaAPP[17966:12119495] Resetting plugins due to page load.
+2015-03-13 15:32:22.309 4uitaliaAPP[17966:12119495] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/3D63BB8D-A436-46C5-ADBC-C3228BC4CEEE/4uitaliaAPP.app/www/LOGIN.html
+2015-03-13 15:34:18.812 4uitaliaAPP[17966:12119495] Resetting plugins due to page load.
+2015-03-13 15:34:19.100 4uitaliaAPP[17966:12119495] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/3D63BB8D-A436-46C5-ADBC-C3228BC4CEEE/4uitaliaAPP.app/www/TEST.html
+2015-03-13 15:34:25.697 4uitaliaAPP[17966:12119495] Resetting plugins due to page load.
+2015-03-13 15:34:25.724 4uitaliaAPP[17966:12119495] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/3D63BB8D-A436-46C5-ADBC-C3228BC4CEEE/4uitaliaAPP.app/www/cargaeffect.html
+2015-03-13 15:34:29.325 4uitaliaAPP[17966:12119495] Resetting plugins due to page load.
+2015-03-13 15:34:29.353 4uitaliaAPP[17966:12119495] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/3D63BB8D-A436-46C5-ADBC-C3228BC4CEEE/4uitaliaAPP.app/www/LOGIN.html
+2015-03-13 15:34:41.804 4uitaliaAPP[17966:12119495] Resetting plugins due to page load.
+2015-03-13 15:34:41.834 4uitaliaAPP[17966:12119495] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/3D63BB8D-A436-46C5-ADBC-C3228BC4CEEE/4uitaliaAPP.app/www/TEST.html
+2015-03-13 15:38:15.459 4uitaliaAPP[18176:12148660] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-13 15:38:15.481 4uitaliaAPP[18176:12148660] Multi-tasking -> Device: YES, App: YES
+2015-03-13 15:38:15.509 4uitaliaAPP[18176:12148660] Unlimited access to network resources
+2015-03-13 15:38:15.513 4uitaliaAPP[18176:12148660] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-13 15:38:15.872 4uitaliaAPP[18176:12148660] Resetting plugins due to page load.
+2015-03-13 15:38:16.221 4uitaliaAPP[18176:12148660] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/272D6D65-C50C-4FAC-8DB3-AAE5A6C363F2/4uitaliaAPP.app/www/LOGIN.html
+2015-03-13 15:38:21.441 4uitaliaAPP[18176:12148660] Resetting plugins due to page load.
+2015-03-13 15:38:21.513 4uitaliaAPP[18176:12148660] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/272D6D65-C50C-4FAC-8DB3-AAE5A6C363F2/4uitaliaAPP.app/www/TEST.html
+2015-03-13 15:38:54.421 4uitaliaAPP[18363:12154168] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-13 15:38:54.422 4uitaliaAPP[18363:12154168] Multi-tasking -> Device: YES, App: YES
+2015-03-13 15:38:54.436 4uitaliaAPP[18363:12154168] Unlimited access to network resources
+2015-03-13 15:38:54.440 4uitaliaAPP[18363:12154168] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-13 15:38:54.591 4uitaliaAPP[18363:12154168] Resetting plugins due to page load.
+2015-03-13 15:38:54.750 4uitaliaAPP[18363:12154168] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/B3898CAD-72CA-4115-9F54-29ED20FD5477/4uitaliaAPP.app/www/LOGIN.html
+2015-03-13 15:39:00.353 4uitaliaAPP[18363:12154168] Resetting plugins due to page load.
+2015-03-13 15:39:00.418 4uitaliaAPP[18363:12154168] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/B3898CAD-72CA-4115-9F54-29ED20FD5477/4uitaliaAPP.app/www/TEST.html
+2015-03-13 15:39:07.206 4uitaliaAPP[18363:12154168] Resetting plugins due to page load.
+2015-03-13 15:39:07.255 4uitaliaAPP[18363:12154168] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/B3898CAD-72CA-4115-9F54-29ED20FD5477/4uitaliaAPP.app/www/cargaeffect.html
+2015-03-13 15:39:10.856 4uitaliaAPP[18363:12154168] Resetting plugins due to page load.
+2015-03-13 15:39:10.880 4uitaliaAPP[18363:12154168] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/B3898CAD-72CA-4115-9F54-29ED20FD5477/4uitaliaAPP.app/www/LOGIN.html
+2015-03-13 15:39:18.743 4uitaliaAPP[18363:12154168] Resetting plugins due to page load.
+2015-03-13 15:39:18.814 4uitaliaAPP[18363:12154168] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/B3898CAD-72CA-4115-9F54-29ED20FD5477/4uitaliaAPP.app/www/TEST.html
+2015-03-13 15:40:20.172 4uitaliaAPP[18553:12165377] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-13 15:40:20.173 4uitaliaAPP[18553:12165377] Multi-tasking -> Device: YES, App: YES
+2015-03-13 15:40:20.185 4uitaliaAPP[18553:12165377] Unlimited access to network resources
+2015-03-13 15:40:20.188 4uitaliaAPP[18553:12165377] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-13 15:40:20.362 4uitaliaAPP[18553:12165377] Resetting plugins due to page load.
+2015-03-13 15:40:20.550 4uitaliaAPP[18553:12165377] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/87EE87B5-B063-4753-A962-DED074AF5836/4uitaliaAPP.app/www/LOGIN.html
+2015-03-13 15:40:30.322 4uitaliaAPP[18553:12165377] Resetting plugins due to page load.
+2015-03-13 15:40:30.428 4uitaliaAPP[18553:12165377] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/87EE87B5-B063-4753-A962-DED074AF5836/4uitaliaAPP.app/www/TEST.html
+2015-03-13 15:41:57.571 4uitaliaAPP[18746:12174299] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-13 15:41:57.572 4uitaliaAPP[18746:12174299] Multi-tasking -> Device: YES, App: YES
+2015-03-13 15:41:57.610 4uitaliaAPP[18746:12174299] Unlimited access to network resources
+2015-03-13 15:41:57.614 4uitaliaAPP[18746:12174299] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-13 15:41:57.793 4uitaliaAPP[18746:12174299] Resetting plugins due to page load.
+2015-03-13 15:41:57.989 4uitaliaAPP[18746:12174299] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/18CB796C-9143-4F08-9083-B2C360A0A39C/4uitaliaAPP.app/www/LOGIN.html
+2015-03-13 15:42:02.946 4uitaliaAPP[18746:12174299] THREAD WARNING: ['Notification'] took '22.732178' ms. Plugin should use a background thread.
+2015-03-13 15:42:04.994 4uitaliaAPP[18746:12174299] Resetting plugins due to page load.
+2015-03-13 15:42:05.115 4uitaliaAPP[18746:12174299] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/18CB796C-9143-4F08-9083-B2C360A0A39C/4uitaliaAPP.app/www/TEST.html
+2015-03-13 15:42:14.100 4uitaliaAPP[18746:12174299] Resetting plugins due to page load.
+2015-03-13 15:42:14.140 4uitaliaAPP[18746:12174299] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/18CB796C-9143-4F08-9083-B2C360A0A39C/4uitaliaAPP.app/www/cargaeffect.html
+2015-03-13 15:42:17.742 4uitaliaAPP[18746:12174299] Resetting plugins due to page load.
+2015-03-13 15:42:17.768 4uitaliaAPP[18746:12174299] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/18CB796C-9143-4F08-9083-B2C360A0A39C/4uitaliaAPP.app/www/LOGIN.html
+2015-03-13 15:42:20.133 4uitaliaAPP[18746:12174299] THREAD WARNING: ['Notification'] took '12.815186' ms. Plugin should use a background thread.
+2015-03-13 15:42:22.578 4uitaliaAPP[18746:12174299] Resetting plugins due to page load.
+2015-03-13 15:42:22.644 4uitaliaAPP[18746:12174299] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/18CB796C-9143-4F08-9083-B2C360A0A39C/4uitaliaAPP.app/www/TEST.html
+2015-03-13 15:43:35.913 4uitaliaAPP[18746:12174299] Resetting plugins due to page load.
+2015-03-13 15:43:35.957 4uitaliaAPP[18746:12174299] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/18CB796C-9143-4F08-9083-B2C360A0A39C/4uitaliaAPP.app/www/cargaeffect.html
+2015-03-13 15:43:39.558 4uitaliaAPP[18746:12174299] Resetting plugins due to page load.
+2015-03-13 15:43:39.584 4uitaliaAPP[18746:12174299] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/18CB796C-9143-4F08-9083-B2C360A0A39C/4uitaliaAPP.app/www/LOGIN.html
+2015-03-13 16:04:29.138 4uitaliaAPP[19016:12234118] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-13 16:04:29.161 4uitaliaAPP[19016:12234118] Multi-tasking -> Device: YES, App: YES
+2015-03-13 16:04:29.181 4uitaliaAPP[19016:12234118] Unlimited access to network resources
+2015-03-13 16:04:29.206 4uitaliaAPP[19016:12234118] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-13 16:04:29.412 4uitaliaAPP[19016:12234118] [CDVTimer][statusbar] 68.965971ms
+2015-03-13 16:04:29.412 4uitaliaAPP[19016:12234118] [CDVTimer][TotalPluginStartup] 69.154024ms
+2015-03-13 16:04:29.772 4uitaliaAPP[19016:12234118] Resetting plugins due to page load.
+2015-03-13 16:04:30.304 4uitaliaAPP[19016:12234118] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/31544EBE-8C5C-4346-A8B5-D0806A29D459/4uitaliaAPP.app/www/LOGIN.html
+2015-03-13 16:04:39.010 4uitaliaAPP[19016:12234118] THREAD WARNING: ['Notification'] took '19.991211' ms. Plugin should use a background thread.
+2015-03-13 16:04:40.547 4uitaliaAPP[19016:12234118] Resetting plugins due to page load.
+2015-03-13 16:04:40.664 4uitaliaAPP[19016:12234118] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/31544EBE-8C5C-4346-A8B5-D0806A29D459/4uitaliaAPP.app/www/TEST.html
+2015-03-13 16:07:37.717 4uitaliaAPP[19222:12254691] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-13 16:07:37.747 4uitaliaAPP[19222:12254691] Multi-tasking -> Device: YES, App: YES
+2015-03-13 16:07:37.767 4uitaliaAPP[19222:12254691] Unlimited access to network resources
+2015-03-13 16:07:37.793 4uitaliaAPP[19222:12254691] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-13 16:07:37.987 4uitaliaAPP[19222:12254691] [CDVTimer][statusbar] 75.666010ms
+2015-03-13 16:07:37.987 4uitaliaAPP[19222:12254691] [CDVTimer][TotalPluginStartup] 75.851977ms
+2015-03-13 16:07:38.302 4uitaliaAPP[19222:12254691] Resetting plugins due to page load.
+2015-03-13 16:07:38.760 4uitaliaAPP[19222:12254691] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/95624520-E5E1-4CCF-BE04-636FDAF8B748/4uitaliaAPP.app/www/LOGIN.html
+2015-03-13 16:07:42.548 4uitaliaAPP[19222:12254691] THREAD WARNING: ['Notification'] took '23.291016' ms. Plugin should use a background thread.
+2015-03-13 16:07:44.616 4uitaliaAPP[19222:12254691] Resetting plugins due to page load.
+2015-03-13 16:07:44.721 4uitaliaAPP[19222:12254691] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/95624520-E5E1-4CCF-BE04-636FDAF8B748/4uitaliaAPP.app/www/TEST.html
+2015-03-13 16:10:57.544 4uitaliaAPP[19426:12277365] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-13 16:10:57.567 4uitaliaAPP[19426:12277365] Multi-tasking -> Device: YES, App: YES
+2015-03-13 16:10:57.590 4uitaliaAPP[19426:12277365] Unlimited access to network resources
+2015-03-13 16:10:57.612 4uitaliaAPP[19426:12277365] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-13 16:10:57.784 4uitaliaAPP[19426:12277365] [CDVTimer][statusbar] 75.447023ms
+2015-03-13 16:10:57.784 4uitaliaAPP[19426:12277365] [CDVTimer][TotalPluginStartup] 75.626969ms
+2015-03-13 16:10:58.319 4uitaliaAPP[19426:12277365] Resetting plugins due to page load.
+2015-03-13 16:10:59.226 4uitaliaAPP[19426:12277365] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/2A5DEBD6-0F0C-44A9-A381-9A13C8A70E10/4uitaliaAPP.app/www/LOGIN.html
+2015-03-13 16:10:59.244 4uitaliaAPP[19426:12277365] -[__NSCFNumber length]: unrecognized selector sent to instance 0x7ba67b90
+2015-03-13 16:10:59.325 4uitaliaAPP[19426:12277365] *** WebKit discarded an uncaught exception in the webView:decidePolicyForNavigationAction:request:frame:decisionListener: delegate: <NSInvalidArgumentException> -[__NSCFNumber length]: unrecognized selector sent to instance 0x7ba67b90
+2015-03-13 16:11:31.489 4uitaliaAPP[19622:12280738] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-13 16:11:31.490 4uitaliaAPP[19622:12280738] Multi-tasking -> Device: YES, App: YES
+2015-03-13 16:11:31.503 4uitaliaAPP[19622:12280738] Unlimited access to network resources
+2015-03-13 16:11:31.524 4uitaliaAPP[19622:12280738] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-13 16:11:31.719 4uitaliaAPP[19622:12280738] [CDVTimer][statusbar] 72.405994ms
+2015-03-13 16:11:31.720 4uitaliaAPP[19622:12280738] [CDVTimer][TotalPluginStartup] 72.593987ms
+2015-03-13 16:11:31.937 4uitaliaAPP[19622:12280738] Resetting plugins due to page load.
+2015-03-13 16:11:32.258 4uitaliaAPP[19622:12280738] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/6BD21D5D-ED45-47F8-BD15-72BF41396AC8/4uitaliaAPP.app/www/LOGIN.html
+2015-03-13 16:11:35.512 4uitaliaAPP[19622:12280738] THREAD WARNING: ['Notification'] took '22.261963' ms. Plugin should use a background thread.
+2015-03-13 16:11:36.936 4uitaliaAPP[19622:12280738] Resetting plugins due to page load.
+2015-03-13 16:11:37.039 4uitaliaAPP[19622:12280738] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/6BD21D5D-ED45-47F8-BD15-72BF41396AC8/4uitaliaAPP.app/www/TEST.html
+2015-03-13 16:35:39.922 4uitaliaAPP[19622:12280738] Resetting plugins due to page load.
+2015-03-13 16:35:40.105 4uitaliaAPP[19622:12280738] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/6BD21D5D-ED45-47F8-BD15-72BF41396AC8/4uitaliaAPP.app/www/cargaeffect.html
+2015-03-13 16:35:43.707 4uitaliaAPP[19622:12280738] Resetting plugins due to page load.
+2015-03-13 16:35:43.741 4uitaliaAPP[19622:12280738] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/6BD21D5D-ED45-47F8-BD15-72BF41396AC8/4uitaliaAPP.app/www/LOGIN.html
+2015-03-13 16:36:02.249 4uitaliaAPP[19622:12280738] THREAD WARNING: ['Notification'] took '13.787842' ms. Plugin should use a background thread.
+2015-03-13 16:36:03.491 4uitaliaAPP[19622:12280738] Resetting plugins due to page load.
+2015-03-13 16:36:03.573 4uitaliaAPP[19622:12280738] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/6BD21D5D-ED45-47F8-BD15-72BF41396AC8/4uitaliaAPP.app/www/TEST.html
+2015-03-13 16:36:45.019 4uitaliaAPP[19622:12280738] Resetting plugins due to page load.
+2015-03-13 16:36:45.054 4uitaliaAPP[19622:12280738] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/6BD21D5D-ED45-47F8-BD15-72BF41396AC8/4uitaliaAPP.app/www/cargaeffect.html
+2015-03-13 16:36:48.656 4uitaliaAPP[19622:12280738] Resetting plugins due to page load.
+2015-03-13 16:36:48.680 4uitaliaAPP[19622:12280738] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/6BD21D5D-ED45-47F8-BD15-72BF41396AC8/4uitaliaAPP.app/www/LOGIN.html
+2015-03-13 16:37:18.770 4uitaliaAPP[19622:12280738] THREAD WARNING: ['Notification'] took '12.697754' ms. Plugin should use a background thread.
+2015-03-13 16:37:20.151 4uitaliaAPP[19622:12280738] Resetting plugins due to page load.
+2015-03-13 16:37:20.218 4uitaliaAPP[19622:12280738] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/6BD21D5D-ED45-47F8-BD15-72BF41396AC8/4uitaliaAPP.app/www/TEST.html
+2015-03-13 16:37:32.948 4uitaliaAPP[19622:12280738] Resetting plugins due to page load.
+2015-03-13 16:37:32.977 4uitaliaAPP[19622:12280738] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/6BD21D5D-ED45-47F8-BD15-72BF41396AC8/4uitaliaAPP.app/www/cargaeffect.html
+2015-03-13 16:37:36.578 4uitaliaAPP[19622:12280738] Resetting plugins due to page load.
+2015-03-13 16:37:36.601 4uitaliaAPP[19622:12280738] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/6BD21D5D-ED45-47F8-BD15-72BF41396AC8/4uitaliaAPP.app/www/LOGIN.html
+2015-03-20 14:45:11.417 4uitaliaAPP[1341:68283] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-20 14:45:11.479 4uitaliaAPP[1341:68283] Multi-tasking -> Device: YES, App: YES
+2015-03-20 14:45:11.569 4uitaliaAPP[1341:68283] Unlimited access to network resources
+2015-03-20 14:45:11.632 4uitaliaAPP[1341:68283] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-20 14:45:13.361 4uitaliaAPP[1341:68283] [CDVTimer][statusbar] 465.384007ms
+2015-03-20 14:45:13.361 4uitaliaAPP[1341:68283] [CDVTimer][TotalPluginStartup] 465.656042ms
+2015-03-20 14:45:14.218 4uitaliaAPP[1341:68283] Resetting plugins due to page load.
+2015-03-20 14:45:15.995 4uitaliaAPP[1341:68283] THREAD WARNING: ['Device'] took '13.534912' ms. Plugin should use a background thread.
+2015-03-20 14:45:16.108 4uitaliaAPP[1341:68283] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/948BBCA6-1469-4E2E-A638-CD69434D3AC7/4uitaliaAPP.app/www/LOGIN.html
+2015-03-20 14:52:11.453 4uitaliaAPP[1611:76706] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-20 14:52:11.476 4uitaliaAPP[1611:76706] Multi-tasking -> Device: YES, App: YES
+2015-03-20 14:52:11.499 4uitaliaAPP[1611:76706] Unlimited access to network resources
+2015-03-20 14:52:11.521 4uitaliaAPP[1611:76706] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-20 14:52:11.726 4uitaliaAPP[1611:76706] [CDVTimer][statusbar] 92.503011ms
+2015-03-20 14:52:11.726 4uitaliaAPP[1611:76706] [CDVTimer][TotalPluginStartup] 92.687011ms
+2015-03-20 14:52:11.905 4uitaliaAPP[1611:76706] Resetting plugins due to page load.
+2015-03-20 14:52:12.204 4uitaliaAPP[1611:76706] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/D2F7A03C-9BDE-497C-BF94-5E591C32239F/4uitaliaAPP.app/www/LOGIN.html
+2015-03-20 14:52:27.704 4uitaliaAPP[1611:76706] Resetting plugins due to page load.
+2015-03-20 14:52:27.928 4uitaliaAPP[1611:76706] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/D2F7A03C-9BDE-497C-BF94-5E591C32239F/4uitaliaAPP.app/www/TEST.html
+2015-03-20 14:52:58.133 4uitaliaAPP[1611:76706] Resetting plugins due to page load.
+2015-03-20 14:52:58.185 4uitaliaAPP[1611:76706] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/D2F7A03C-9BDE-497C-BF94-5E591C32239F/4uitaliaAPP.app/www/cargaeffect.html
+2015-03-20 14:53:01.786 4uitaliaAPP[1611:76706] Resetting plugins due to page load.
+2015-03-20 14:53:01.812 4uitaliaAPP[1611:76706] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/D2F7A03C-9BDE-497C-BF94-5E591C32239F/4uitaliaAPP.app/www/LOGIN.html
+2015-03-20 14:54:47.260 4uitaliaAPP[1920:78545] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-20 14:54:47.294 4uitaliaAPP[1920:78545] Multi-tasking -> Device: YES, App: YES
+2015-03-20 14:54:47.314 4uitaliaAPP[1920:78545] Unlimited access to network resources
+2015-03-20 14:54:47.328 4uitaliaAPP[1920:78545] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-20 14:54:47.536 4uitaliaAPP[1920:78545] [CDVTimer][statusbar] 97.913027ms
+2015-03-20 14:54:47.536 4uitaliaAPP[1920:78545] [CDVTimer][TotalPluginStartup] 98.100007ms
+2015-03-20 14:54:47.726 4uitaliaAPP[1920:78545] Resetting plugins due to page load.
+2015-03-20 14:54:48.028 4uitaliaAPP[1920:78545] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/0F2FDBD1-5204-448B-8514-94381C93F577/4uitaliaAPP.app/www/LOGIN.html
+2015-03-20 14:55:10.571 4uitaliaAPP[2119:79293] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-20 14:55:10.572 4uitaliaAPP[2119:79293] Multi-tasking -> Device: YES, App: YES
+2015-03-20 14:55:10.575 4uitaliaAPP[2119:79293] Unlimited access to network resources
+2015-03-20 14:55:10.580 4uitaliaAPP[2119:79293] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-20 14:55:10.732 4uitaliaAPP[2119:79293] [CDVTimer][statusbar] 19.162953ms
+2015-03-20 14:55:10.732 4uitaliaAPP[2119:79293] [CDVTimer][TotalPluginStartup] 19.345999ms
+2015-03-20 14:55:10.805 4uitaliaAPP[2119:79293] Resetting plugins due to page load.
+2015-03-20 14:55:10.965 4uitaliaAPP[2119:79293] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/0D947EB8-FB84-4848-AA98-779AE9715FD6/4uitaliaAPP.app/www/LOGIN.html
+2015-03-20 14:55:34.515 4uitaliaAPP[2316:80016] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-20 14:55:34.517 4uitaliaAPP[2316:80016] Multi-tasking -> Device: YES, App: YES
+2015-03-20 14:55:34.524 4uitaliaAPP[2316:80016] Unlimited access to network resources
+2015-03-20 14:55:34.527 4uitaliaAPP[2316:80016] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-20 14:55:34.666 4uitaliaAPP[2316:80016] [CDVTimer][statusbar] 17.297983ms
+2015-03-20 14:55:34.666 4uitaliaAPP[2316:80016] [CDVTimer][TotalPluginStartup] 17.504990ms
+2015-03-20 14:55:34.756 4uitaliaAPP[2316:80016] Resetting plugins due to page load.
+2015-03-20 14:55:34.919 4uitaliaAPP[2316:80016] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/E1524624-B969-4B9B-BA7F-D7DDB2E56D7A/4uitaliaAPP.app/www/LOGIN.html
+2015-03-20 14:56:04.652 4uitaliaAPP[2513:80809] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-20 14:56:04.653 4uitaliaAPP[2513:80809] Multi-tasking -> Device: YES, App: YES
+2015-03-20 14:56:04.660 4uitaliaAPP[2513:80809] Unlimited access to network resources
+2015-03-20 14:56:04.663 4uitaliaAPP[2513:80809] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-20 14:56:04.796 4uitaliaAPP[2513:80809] [CDVTimer][statusbar] 18.712997ms
+2015-03-20 14:56:04.796 4uitaliaAPP[2513:80809] [CDVTimer][TotalPluginStartup] 18.902004ms
+2015-03-20 14:56:04.891 4uitaliaAPP[2513:80809] Resetting plugins due to page load.
+2015-03-20 14:56:05.046 4uitaliaAPP[2513:80809] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/889A0582-5866-456F-A7DA-E74723332E40/4uitaliaAPP.app/www/LOGIN.html
+2015-03-20 14:56:49.454 4uitaliaAPP[2713:81741] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-20 14:56:49.455 4uitaliaAPP[2713:81741] Multi-tasking -> Device: YES, App: YES
+2015-03-20 14:56:49.466 4uitaliaAPP[2713:81741] Unlimited access to network resources
+2015-03-20 14:56:49.470 4uitaliaAPP[2713:81741] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-20 14:56:49.750 4uitaliaAPP[2713:81741] [CDVTimer][statusbar] 159.475982ms
+2015-03-20 14:56:49.750 4uitaliaAPP[2713:81741] [CDVTimer][TotalPluginStartup] 159.659028ms
+2015-03-20 14:56:50.376 4uitaliaAPP[2713:81741] Resetting plugins due to page load.
+2015-03-20 14:56:50.803 4uitaliaAPP[2713:81741] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/DEE4F88B-C683-428C-AB94-FF41716AC085/4uitaliaAPP.app/www/LOGIN.html
+2015-03-20 14:59:05.004 4uitaliaAPP[2926:84485] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-20 14:59:05.028 4uitaliaAPP[2926:84485] Multi-tasking -> Device: YES, App: YES
+2015-03-20 14:59:05.043 4uitaliaAPP[2926:84485] Unlimited access to network resources
+2015-03-20 14:59:05.047 4uitaliaAPP[2926:84485] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-20 14:59:05.221 4uitaliaAPP[2926:84485] [CDVTimer][statusbar] 69.347978ms
+2015-03-20 14:59:05.221 4uitaliaAPP[2926:84485] [CDVTimer][TotalPluginStartup] 69.537044ms
+2015-03-20 14:59:05.377 4uitaliaAPP[2926:84485] Resetting plugins due to page load.
+2015-03-20 14:59:05.676 4uitaliaAPP[2926:84485] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/FADFE4E9-32D2-4A5B-99C6-D821DE0D09FB/4uitaliaAPP.app/www/LOGIN.html
+2015-03-20 14:59:45.229 4uitaliaAPP[3125:85203] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-20 14:59:45.230 4uitaliaAPP[3125:85203] Multi-tasking -> Device: YES, App: YES
+2015-03-20 14:59:45.244 4uitaliaAPP[3125:85203] Unlimited access to network resources
+2015-03-20 14:59:45.247 4uitaliaAPP[3125:85203] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-20 14:59:45.377 4uitaliaAPP[3125:85203] [CDVTimer][statusbar] 20.846009ms
+2015-03-20 14:59:45.377 4uitaliaAPP[3125:85203] [CDVTimer][TotalPluginStartup] 21.045983ms
+2015-03-20 14:59:45.459 4uitaliaAPP[3125:85203] Resetting plugins due to page load.
+2015-03-20 14:59:45.610 4uitaliaAPP[3125:85203] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/4E29066B-7645-4E07-86DA-8544BB021164/4uitaliaAPP.app/www/LOGIN.html
+2015-03-20 15:00:14.145 4uitaliaAPP[3323:86013] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-20 15:00:14.145 4uitaliaAPP[3323:86013] Multi-tasking -> Device: YES, App: YES
+2015-03-20 15:00:14.160 4uitaliaAPP[3323:86013] Unlimited access to network resources
+2015-03-20 15:00:14.162 4uitaliaAPP[3323:86013] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-20 15:00:14.295 4uitaliaAPP[3323:86013] [CDVTimer][statusbar] 19.159019ms
+2015-03-20 15:00:14.296 4uitaliaAPP[3323:86013] [CDVTimer][TotalPluginStartup] 19.451976ms
+2015-03-20 15:00:14.391 4uitaliaAPP[3323:86013] Resetting plugins due to page load.
+2015-03-20 15:00:14.760 4uitaliaAPP[3323:86013] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/5C33B8B6-83D3-40A7-91D9-9A6926714B01/4uitaliaAPP.app/www/LOGIN.html
+2015-03-20 15:02:03.312 4uitaliaAPP[3526:87939] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-20 15:02:03.314 4uitaliaAPP[3526:87939] Multi-tasking -> Device: YES, App: YES
+2015-03-20 15:02:03.324 4uitaliaAPP[3526:87939] Unlimited access to network resources
+2015-03-20 15:02:03.327 4uitaliaAPP[3526:87939] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-20 15:02:03.461 4uitaliaAPP[3526:87939] [CDVTimer][statusbar] 19.281030ms
+2015-03-20 15:02:03.461 4uitaliaAPP[3526:87939] [CDVTimer][TotalPluginStartup] 19.479990ms
+2015-03-20 15:02:03.541 4uitaliaAPP[3526:87939] Resetting plugins due to page load.
+2015-03-20 15:02:03.701 4uitaliaAPP[3526:87939] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/54F76CB0-7CFB-40F6-A2D3-2D90390C1329/4uitaliaAPP.app/www/LOGIN.html
+2015-03-20 15:02:09.878 4uitaliaAPP[3526:87939] Resetting plugins due to page load.
+2015-03-20 15:02:09.931 4uitaliaAPP[3526:87939] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/54F76CB0-7CFB-40F6-A2D3-2D90390C1329/4uitaliaAPP.app/www/TEST.html
+2015-03-20 15:04:17.413 4uitaliaAPP[3526:89707] Terminating since there is no system app.
+2015-03-20 15:05:26.629 4uitaliaAPP[3850:91721] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-20 15:05:26.645 4uitaliaAPP[3850:91721] Multi-tasking -> Device: YES, App: YES
+2015-03-20 15:05:26.680 4uitaliaAPP[3850:91721] Unlimited access to network resources
+2015-03-20 15:05:26.713 4uitaliaAPP[3850:91721] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-20 15:05:27.212 4uitaliaAPP[3850:91721] [CDVTimer][statusbar] 80.693960ms
+2015-03-20 15:05:27.212 4uitaliaAPP[3850:91721] [CDVTimer][TotalPluginStartup] 80.990970ms
+2015-03-20 15:05:27.286 4uitaliaAPP[3850:91721] Resetting plugins due to page load.
+2015-03-20 15:05:28.259 4uitaliaAPP[3850:91721] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/84F5F672-F54B-4177-8956-499E4331D592/4uitaliaAPP.app/www/LOGIN.html
+2015-03-20 15:05:34.712 4uitaliaAPP[3850:91721] Resetting plugins due to page load.
+2015-03-20 15:05:34.789 4uitaliaAPP[3850:91721] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/84F5F672-F54B-4177-8956-499E4331D592/4uitaliaAPP.app/www/TEST.html
+2015-03-20 15:12:57.175 4uitaliaAPP[4187:100195] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-20 15:12:57.198 4uitaliaAPP[4187:100195] Multi-tasking -> Device: YES, App: YES
+2015-03-20 15:12:57.217 4uitaliaAPP[4187:100195] Unlimited access to network resources
+2015-03-20 15:12:57.233 4uitaliaAPP[4187:100195] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-20 15:12:57.405 4uitaliaAPP[4187:100195] [CDVTimer][statusbar] 74.889958ms
+2015-03-20 15:12:57.405 4uitaliaAPP[4187:100195] [CDVTimer][TotalPluginStartup] 75.074017ms
+2015-03-20 15:12:57.639 4uitaliaAPP[4187:100195] Resetting plugins due to page load.
+2015-03-20 15:12:58.107 4uitaliaAPP[4187:100195] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/C092FA91-9852-438C-8B96-60BA33C9EB63/4uitaliaAPP.app/www/LOGIN.html
+2015-03-20 15:13:20.271 4uitaliaAPP[4386:101021] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-20 15:13:20.272 4uitaliaAPP[4386:101021] Multi-tasking -> Device: YES, App: YES
+2015-03-20 15:13:20.284 4uitaliaAPP[4386:101021] Unlimited access to network resources
+2015-03-20 15:13:20.287 4uitaliaAPP[4386:101021] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-20 15:13:20.416 4uitaliaAPP[4386:101021] [CDVTimer][statusbar] 21.376967ms
+2015-03-20 15:13:20.417 4uitaliaAPP[4386:101021] [CDVTimer][TotalPluginStartup] 21.767974ms
+2015-03-20 15:13:20.510 4uitaliaAPP[4386:101021] Resetting plugins due to page load.
+2015-03-20 15:13:20.694 4uitaliaAPP[4386:101021] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/4A4BD4B3-1137-42C2-BBC2-CB1675B14C74/4uitaliaAPP.app/www/LOGIN.html
+2015-03-20 15:13:55.868 4uitaliaAPP[4585:101896] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-20 15:13:55.870 4uitaliaAPP[4585:101896] Multi-tasking -> Device: YES, App: YES
+2015-03-20 15:13:55.872 4uitaliaAPP[4585:101896] Unlimited access to network resources
+2015-03-20 15:13:55.875 4uitaliaAPP[4585:101896] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-20 15:13:56.012 4uitaliaAPP[4585:101896] [CDVTimer][statusbar] 18.431008ms
+2015-03-20 15:13:56.012 4uitaliaAPP[4585:101896] [CDVTimer][TotalPluginStartup] 18.692017ms
+2015-03-20 15:13:56.095 4uitaliaAPP[4585:101896] Resetting plugins due to page load.
+2015-03-20 15:13:56.399 4uitaliaAPP[4585:101896] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/2ED1F8FC-D35A-4C81-8586-A49FD1A1AE67/4uitaliaAPP.app/www/LOGIN.html
+2015-03-20 15:14:28.695 4uitaliaAPP[4585:101896] Resetting plugins due to page load.
+2015-03-20 15:14:28.786 4uitaliaAPP[4585:101896] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/2ED1F8FC-D35A-4C81-8586-A49FD1A1AE67/4uitaliaAPP.app/www/TEST.html
+2015-03-20 15:18:34.168 4uitaliaAPP[4823:106941] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-20 15:18:34.169 4uitaliaAPP[4823:106941] Multi-tasking -> Device: YES, App: YES
+2015-03-20 15:18:34.200 4uitaliaAPP[4823:106941] Unlimited access to network resources
+2015-03-20 15:18:34.225 4uitaliaAPP[4823:106941] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-20 15:18:34.430 4uitaliaAPP[4823:106941] [CDVTimer][statusbar] 99.219978ms
+2015-03-20 15:18:34.430 4uitaliaAPP[4823:106941] [CDVTimer][TotalPluginStartup] 99.406004ms
+2015-03-20 15:18:34.620 4uitaliaAPP[4823:106941] Resetting plugins due to page load.
+2015-03-20 15:18:35.008 4uitaliaAPP[4823:106941] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/2B95C288-FB7A-41F3-9832-B788BBCDE843/4uitaliaAPP.app/www/LOGIN.html
+2015-03-20 15:18:38.064 4uitaliaAPP[4823:106941] Notification.confirm(string, function, string, string) is deprecated.  Use Notification.confirm(string, function, string, array).
+2015-03-20 15:18:38.091 4uitaliaAPP[4823:106941] THREAD WARNING: ['Notification'] took '27.399902' ms. Plugin should use a background thread.
+2015-03-20 15:18:38.139 4uitaliaAPP[4823:106941] Resetting plugins due to page load.
+2015-03-20 15:18:38.715 4uitaliaAPP[4823:106941] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/2B95C288-FB7A-41F3-9832-B788BBCDE843/4uitaliaAPP.app/www/TEST.html
+2015-03-20 15:18:52.381 4uitaliaAPP[4823:106941] Resetting plugins due to page load.
+2015-03-20 15:18:52.425 4uitaliaAPP[4823:106941] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/2B95C288-FB7A-41F3-9832-B788BBCDE843/4uitaliaAPP.app/www/cargaeffect.html
+2015-03-20 15:18:56.027 4uitaliaAPP[4823:106941] Resetting plugins due to page load.
+2015-03-20 15:18:56.054 4uitaliaAPP[4823:106941] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/2B95C288-FB7A-41F3-9832-B788BBCDE843/4uitaliaAPP.app/www/LOGIN.html
+2015-03-20 15:21:03.039 4uitaliaAPP[5036:109511] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-20 15:21:03.064 4uitaliaAPP[5036:109511] Multi-tasking -> Device: YES, App: YES
+2015-03-20 15:21:03.080 4uitaliaAPP[5036:109511] Unlimited access to network resources
+2015-03-20 15:21:03.098 4uitaliaAPP[5036:109511] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-20 15:21:03.268 4uitaliaAPP[5036:109511] [CDVTimer][statusbar] 63.440979ms
+2015-03-20 15:21:03.268 4uitaliaAPP[5036:109511] [CDVTimer][TotalPluginStartup] 63.668013ms
+2015-03-20 15:21:03.437 4uitaliaAPP[5036:109511] Resetting plugins due to page load.
+2015-03-20 15:21:03.937 4uitaliaAPP[5036:109511] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/324BA1F2-4E44-4232-9005-463F0D9DA3C7/4uitaliaAPP.app/www/LOGIN.html
+2015-03-20 15:21:05.873 4uitaliaAPP[5036:109511] Notification.confirm(string, function, string, string) is deprecated.  Use Notification.confirm(string, function, string, array).
+2015-03-20 15:21:05.901 4uitaliaAPP[5036:109511] THREAD WARNING: ['Notification'] took '26.953857' ms. Plugin should use a background thread.
+2015-03-20 15:21:05.947 4uitaliaAPP[5036:109511] Resetting plugins due to page load.
+2015-03-20 15:21:06.112 4uitaliaAPP[5036:109511] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/324BA1F2-4E44-4232-9005-463F0D9DA3C7/4uitaliaAPP.app/www/TEST.html
+2015-03-20 15:21:11.736 4uitaliaAPP[5036:109511] Resetting plugins due to page load.
+2015-03-20 15:21:11.778 4uitaliaAPP[5036:109511] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/324BA1F2-4E44-4232-9005-463F0D9DA3C7/4uitaliaAPP.app/www/cargaeffect.html
+2015-03-20 15:21:15.379 4uitaliaAPP[5036:109511] Resetting plugins due to page load.
+2015-03-20 15:21:15.403 4uitaliaAPP[5036:109511] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/324BA1F2-4E44-4232-9005-463F0D9DA3C7/4uitaliaAPP.app/www/LOGIN.html
+2015-03-20 15:21:17.105 4uitaliaAPP[5036:109511] Notification.confirm(string, function, string, string) is deprecated.  Use Notification.confirm(string, function, string, array).
+2015-03-20 15:21:17.123 4uitaliaAPP[5036:109511] THREAD WARNING: ['Notification'] took '17.409668' ms. Plugin should use a background thread.
+2015-03-20 15:21:17.163 4uitaliaAPP[5036:109511] Resetting plugins due to page load.
+2015-03-20 15:21:17.271 4uitaliaAPP[5036:109511] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/324BA1F2-4E44-4232-9005-463F0D9DA3C7/4uitaliaAPP.app/www/TEST.html
+2015-03-20 15:22:05.903 4uitaliaAPP[5238:110526] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-20 15:22:05.904 4uitaliaAPP[5238:110526] Multi-tasking -> Device: YES, App: YES
+2015-03-20 15:22:05.906 4uitaliaAPP[5238:110526] Unlimited access to network resources
+2015-03-20 15:22:05.911 4uitaliaAPP[5238:110526] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-20 15:22:06.073 4uitaliaAPP[5238:110526] [CDVTimer][statusbar] 17.845988ms
+2015-03-20 15:22:06.073 4uitaliaAPP[5238:110526] [CDVTimer][TotalPluginStartup] 18.036008ms
+2015-03-20 15:22:06.156 4uitaliaAPP[5238:110526] Resetting plugins due to page load.
+2015-03-20 15:22:06.505 4uitaliaAPP[5238:110526] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/FD273537-B471-4DD3-90A9-8F6C0A8AFA9A/4uitaliaAPP.app/www/LOGIN.html
+2015-03-20 15:22:08.494 4uitaliaAPP[5238:110526] Notification.confirm(string, function, string, string) is deprecated.  Use Notification.confirm(string, function, string, array).
+2015-03-20 15:22:08.519 4uitaliaAPP[5238:110526] THREAD WARNING: ['Notification'] took '24.779053' ms. Plugin should use a background thread.
+2015-03-20 15:22:08.563 4uitaliaAPP[5238:110526] Resetting plugins due to page load.
+2015-03-20 15:22:08.737 4uitaliaAPP[5238:110526] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/FD273537-B471-4DD3-90A9-8F6C0A8AFA9A/4uitaliaAPP.app/www/TEST.html
+2015-03-20 15:22:14.406 4uitaliaAPP[5238:110526] Resetting plugins due to page load.
+2015-03-20 15:22:14.469 4uitaliaAPP[5238:110526] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/FD273537-B471-4DD3-90A9-8F6C0A8AFA9A/4uitaliaAPP.app/www/cargaeffect.html
+2015-03-20 15:22:18.070 4uitaliaAPP[5238:110526] Resetting plugins due to page load.
+2015-03-20 15:22:18.099 4uitaliaAPP[5238:110526] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/FD273537-B471-4DD3-90A9-8F6C0A8AFA9A/4uitaliaAPP.app/www/LOGIN.html
+2015-03-20 15:22:21.112 4uitaliaAPP[5238:110526] Notification.confirm(string, function, string, string) is deprecated.  Use Notification.confirm(string, function, string, array).
+2015-03-20 15:22:21.129 4uitaliaAPP[5238:110526] THREAD WARNING: ['Notification'] took '16.927979' ms. Plugin should use a background thread.
+2015-03-20 15:22:21.169 4uitaliaAPP[5238:110526] Resetting plugins due to page load.
+2015-03-20 15:22:21.277 4uitaliaAPP[5238:110526] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/FD273537-B471-4DD3-90A9-8F6C0A8AFA9A/4uitaliaAPP.app/www/TEST.html
+2015-03-20 15:23:11.321 4uitaliaAPP[5238:110526] Resetting plugins due to page load.
+2015-03-20 15:23:11.369 4uitaliaAPP[5238:110526] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/FD273537-B471-4DD3-90A9-8F6C0A8AFA9A/4uitaliaAPP.app/www/cargaeffect.html
+2015-03-20 15:23:14.970 4uitaliaAPP[5238:110526] Resetting plugins due to page load.
+2015-03-20 15:23:14.994 4uitaliaAPP[5238:110526] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/FD273537-B471-4DD3-90A9-8F6C0A8AFA9A/4uitaliaAPP.app/www/LOGIN.html
+2015-03-20 15:23:17.215 4uitaliaAPP[5238:110526] Notification.confirm(string, function, string, string) is deprecated.  Use Notification.confirm(string, function, string, array).
+2015-03-20 15:23:17.231 4uitaliaAPP[5238:110526] THREAD WARNING: ['Notification'] took '15.866211' ms. Plugin should use a background thread.
+2015-03-20 15:23:17.272 4uitaliaAPP[5238:110526] Resetting plugins due to page load.
+2015-03-20 15:23:17.376 4uitaliaAPP[5238:110526] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/FD273537-B471-4DD3-90A9-8F6C0A8AFA9A/4uitaliaAPP.app/www/TEST.html
+2015-03-20 15:27:44.024 4uitaliaAPP[5500:114579] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-20 15:27:44.049 4uitaliaAPP[5500:114579] Multi-tasking -> Device: YES, App: YES
+2015-03-20 15:27:44.060 4uitaliaAPP[5500:114579] Unlimited access to network resources
+2015-03-20 15:27:44.071 4uitaliaAPP[5500:114579] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-20 15:27:44.230 4uitaliaAPP[5500:114579] [CDVTimer][statusbar] 67.816973ms
+2015-03-20 15:27:44.230 4uitaliaAPP[5500:114579] [CDVTimer][TotalPluginStartup] 68.009019ms
+2015-03-20 15:27:44.474 4uitaliaAPP[5500:114579] Resetting plugins due to page load.
+2015-03-20 15:27:44.907 4uitaliaAPP[5500:114579] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/910A4019-9F02-49A1-8081-B822E2359DE6/4uitaliaAPP.app/www/LOGIN.html
+2015-03-20 15:27:57.227 4uitaliaAPP[5500:114629] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptConfirmPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-03-20 15:27:57.250 4uitaliaAPP[5500:114579] Resetting plugins due to page load.
+2015-03-20 15:27:57.535 4uitaliaAPP[5500:114579] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/910A4019-9F02-49A1-8081-B822E2359DE6/4uitaliaAPP.app/www/MAIN.html
+2015-03-20 15:28:06.010 4uitaliaAPP[5500:114579] Resetting plugins due to page load.
+2015-03-20 15:28:06.302 4uitaliaAPP[5500:114579] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/910A4019-9F02-49A1-8081-B822E2359DE6/4uitaliaAPP.app/www/Template.html?project=Mediaset
+2015-03-20 15:28:06.394 4uitaliaAPP[5500:114579] ERROR: Plugin 'ScreenOrientation' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-20 15:28:06.394 4uitaliaAPP[5500:114579] -[CDVCommandQueue executePending] [Line 159] FAILED pluginJSON = ["INVALID","ScreenOrientation","set",["fullSensor"]]
+2015-03-20 15:28:06.674 4uitaliaAPP[5500:114579] Resetting plugins due to page load.
+2015-03-20 15:28:06.784 4uitaliaAPP[5500:114579] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/910A4019-9F02-49A1-8081-B822E2359DE6/4uitaliaAPP.app/www/Template.html?project=Mediaset
+2015-03-20 15:28:06.830 4uitaliaAPP[5500:114579] ERROR: Plugin 'ScreenOrientation' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-20 15:28:06.831 4uitaliaAPP[5500:114579] -[CDVCommandQueue executePending] [Line 159] FAILED pluginJSON = ["INVALID","ScreenOrientation","set",["fullSensor"]]
+2015-03-20 15:28:53.059 4uitaliaAPP[5500:114579] Resetting plugins due to page load.
+2015-03-20 15:28:53.177 4uitaliaAPP[5500:114579] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/910A4019-9F02-49A1-8081-B822E2359DE6/4uitaliaAPP.app/www/MAIN.html
+2015-03-20 15:31:06.677 4uitaliaAPP[5726:116846] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-20 15:31:06.702 4uitaliaAPP[5726:116846] Multi-tasking -> Device: YES, App: YES
+2015-03-20 15:31:06.722 4uitaliaAPP[5726:116846] Unlimited access to network resources
+2015-03-20 15:31:06.747 4uitaliaAPP[5726:116846] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-20 15:31:06.916 4uitaliaAPP[5726:116846] [CDVTimer][statusbar] 73.134005ms
+2015-03-20 15:31:06.917 4uitaliaAPP[5726:116846] [CDVTimer][TotalPluginStartup] 73.361993ms
+2015-03-20 15:31:07.228 4uitaliaAPP[5726:116846] Resetting plugins due to page load.
+2015-03-20 15:31:08.148 4uitaliaAPP[5726:116846] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/FD4F4A23-7F19-4C6E-8B74-BDBD1F06ED7C/4uitaliaAPP.app/www/LOGIN.html
+2015-03-20 15:31:10.213 4uitaliaAPP[5726:116846] Notification.confirm(string, function, string, string) is deprecated.  Use Notification.confirm(string, function, string, array).
+2015-03-20 15:31:10.243 4uitaliaAPP[5726:116846] THREAD WARNING: ['Notification'] took '29.125977' ms. Plugin should use a background thread.
+2015-03-20 15:31:25.860 4uitaliaAPP[5726:116846] Error in Success callbackId: Notification1383055860 : TypeError: undefined is not a function (evaluating 'callback.success.apply(null, args)')
+2015-03-20 15:31:25.860 4uitaliaAPP[5726:116846] Notification.confirm(string, function, string, string) is deprecated.  Use Notification.confirm(string, function, string, array).
+2015-03-20 15:31:25.877 4uitaliaAPP[5726:116846] THREAD WARNING: ['Notification'] took '16.406982' ms. Plugin should use a background thread.
+2015-03-20 15:31:26.096 4uitaliaAPP[5726:116846] Notification.confirm(string, function, string, string) is deprecated.  Use Notification.confirm(string, function, string, array).
+2015-03-20 15:31:26.232 4uitaliaAPP[5726:116846] THREAD WARNING: ['Notification'] took '135.802002' ms. Plugin should use a background thread.
+2015-03-20 15:31:26.513 4uitaliaAPP[5726:116846] Notification.confirm(string, function, string, string) is deprecated.  Use Notification.confirm(string, function, string, array).
+2015-03-20 15:31:26.546 4uitaliaAPP[5726:116846] THREAD WARNING: ['Notification'] took '33.243164' ms. Plugin should use a background thread.
+2015-03-20 15:31:26.595 4uitaliaAPP[5726:116846] Notification.confirm(string, function, string, string) is deprecated.  Use Notification.confirm(string, function, string, array).
+2015-03-20 15:31:26.615 4uitaliaAPP[5726:116846] THREAD WARNING: ['Notification'] took '20.322998' ms. Plugin should use a background thread.
+2015-03-20 15:31:37.625 4uitaliaAPP[5726:116846] Error in Success callbackId: Notification1383055864 : TypeError: undefined is not a function (evaluating 'callback.success.apply(null, args)')
+2015-03-20 15:31:37.625 4uitaliaAPP[5726:116846] Error in Success callbackId: Notification1383055863 : TypeError: undefined is not a function (evaluating 'callback.success.apply(null, args)')
+2015-03-20 15:31:37.625 4uitaliaAPP[5726:116846] Error in Success callbackId: Notification1383055862 : TypeError: undefined is not a function (evaluating 'callback.success.apply(null, args)')
+2015-03-20 15:31:37.625 4uitaliaAPP[5726:116846] Error in Success callbackId: Notification1383055861 : TypeError: undefined is not a function (evaluating 'callback.success.apply(null, args)')
+2015-03-20 15:33:09.902 4uitaliaAPP[5949:118694] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-20 15:33:09.931 4uitaliaAPP[5949:118694] Multi-tasking -> Device: YES, App: YES
+2015-03-20 15:33:09.972 4uitaliaAPP[5949:118694] Unlimited access to network resources
+2015-03-20 15:33:10.198 4uitaliaAPP[5949:118694] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-20 15:33:10.892 4uitaliaAPP[5949:118694] [CDVTimer][statusbar] 340.212047ms
+2015-03-20 15:33:10.892 4uitaliaAPP[5949:118694] [CDVTimer][TotalPluginStartup] 340.399027ms
+2015-03-20 15:33:11.275 4uitaliaAPP[5949:118694] Resetting plugins due to page load.
+2015-03-20 15:33:12.066 4uitaliaAPP[5949:118694] THREAD WARNING: ['Device'] took '10.454102' ms. Plugin should use a background thread.
+2015-03-20 15:33:12.088 4uitaliaAPP[5949:118694] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/EDA3CA82-3253-4D4B-BB61-4C4FF926D4A1/4uitaliaAPP.app/www/LOGIN.html
+2015-03-20 15:33:14.391 4uitaliaAPP[5949:118694] Notification.confirm(string, function, string, string) is deprecated.  Use Notification.confirm(string, function, string, array).
+2015-03-20 15:33:14.419 4uitaliaAPP[5949:118694] THREAD WARNING: ['Notification'] took '27.918945' ms. Plugin should use a background thread.
+2015-03-20 15:33:15.280 4uitaliaAPP[5949:118694] THREAD WARNING: ['Notification'] took '12.595215' ms. Plugin should use a background thread.
+2015-03-20 15:33:19.990 4uitaliaAPP[5949:118694] Notification.confirm(string, function, string, string) is deprecated.  Use Notification.confirm(string, function, string, array).
+2015-03-20 15:33:20.010 4uitaliaAPP[5949:118694] THREAD WARNING: ['Notification'] took '19.375000' ms. Plugin should use a background thread.
+2015-03-20 15:33:21.260 4uitaliaAPP[5949:118694] THREAD WARNING: ['Notification'] took '12.782959' ms. Plugin should use a background thread.
+2015-03-20 15:33:24.267 4uitaliaAPP[5949:118694] Notification.confirm(string, function, string, string) is deprecated.  Use Notification.confirm(string, function, string, array).
+2015-03-20 15:33:24.288 4uitaliaAPP[5949:118694] THREAD WARNING: ['Notification'] took '20.157959' ms. Plugin should use a background thread.
+2015-03-20 15:33:25.140 4uitaliaAPP[5949:118694] THREAD WARNING: ['Notification'] took '28.383789' ms. Plugin should use a background thread.
+2015-03-20 15:34:04.253 4uitaliaAPP[6161:119617] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-20 15:34:04.277 4uitaliaAPP[6161:119617] Multi-tasking -> Device: YES, App: YES
+2015-03-20 15:34:04.300 4uitaliaAPP[6161:119617] Unlimited access to network resources
+2015-03-20 15:34:04.321 4uitaliaAPP[6161:119617] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-20 15:34:04.482 4uitaliaAPP[6161:119617] [CDVTimer][statusbar] 68.153977ms
+2015-03-20 15:34:04.483 4uitaliaAPP[6161:119617] [CDVTimer][TotalPluginStartup] 68.341017ms
+2015-03-20 15:34:04.636 4uitaliaAPP[6161:119617] Resetting plugins due to page load.
+2015-03-20 15:34:04.909 4uitaliaAPP[6161:119617] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/0CD959B4-1223-4BAA-8999-C41874DF3FC6/4uitaliaAPP.app/www/LOGIN.html
+2015-03-20 15:34:07.026 4uitaliaAPP[6161:119617] Notification.confirm(string, function, string, string) is deprecated.  Use Notification.confirm(string, function, string, array).
+2015-03-20 15:34:07.061 4uitaliaAPP[6161:119617] THREAD WARNING: ['Notification'] took '34.583008' ms. Plugin should use a background thread.
+2015-03-20 15:34:48.025 4uitaliaAPP[6372:120439] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-20 15:34:48.026 4uitaliaAPP[6372:120439] Multi-tasking -> Device: YES, App: YES
+2015-03-20 15:34:48.049 4uitaliaAPP[6372:120439] Unlimited access to network resources
+2015-03-20 15:34:48.052 4uitaliaAPP[6372:120439] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-20 15:34:48.171 4uitaliaAPP[6372:120439] [CDVTimer][statusbar] 17.923951ms
+2015-03-20 15:34:48.171 4uitaliaAPP[6372:120439] [CDVTimer][TotalPluginStartup] 18.109977ms
+2015-03-20 15:34:48.238 4uitaliaAPP[6372:120439] Resetting plugins due to page load.
+2015-03-20 15:34:48.511 4uitaliaAPP[6372:120439] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/168682F7-D122-4B5D-BC89-5F84A7C16260/4uitaliaAPP.app/www/LOGIN.html
+2015-03-20 15:34:50.808 4uitaliaAPP[6372:120439] Notification.confirm(string, function, string, string) is deprecated.  Use Notification.confirm(string, function, string, array).
+2015-03-20 15:34:50.841 4uitaliaAPP[6372:120439] THREAD WARNING: ['Notification'] took '32.774902' ms. Plugin should use a background thread.
+2015-03-20 15:34:52.158 4uitaliaAPP[6372:120439] THREAD WARNING: ['Notification'] took '16.574707' ms. Plugin should use a background thread.
+2015-03-20 15:34:57.591 4uitaliaAPP[6372:120439] Notification.confirm(string, function, string, string) is deprecated.  Use Notification.confirm(string, function, string, array).
+2015-03-20 15:34:57.611 4uitaliaAPP[6372:120439] THREAD WARNING: ['Notification'] took '19.212158' ms. Plugin should use a background thread.
+2015-03-20 15:34:59.111 4uitaliaAPP[6372:120439] THREAD WARNING: ['Notification'] took '13.226074' ms. Plugin should use a background thread.
+2015-03-20 15:36:06.182 4uitaliaAPP[6372:120439] Notification.confirm(string, function, string, string) is deprecated.  Use Notification.confirm(string, function, string, array).
+2015-03-20 15:36:06.202 4uitaliaAPP[6372:120439] THREAD WARNING: ['Notification'] took '19.975098' ms. Plugin should use a background thread.
+2015-03-20 15:36:07.300 4uitaliaAPP[6372:120439] THREAD WARNING: ['Notification'] took '17.413086' ms. Plugin should use a background thread.
+2015-03-20 15:37:11.828 4uitaliaAPP[6599:122457] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-20 15:37:11.851 4uitaliaAPP[6599:122457] Multi-tasking -> Device: YES, App: YES
+2015-03-20 15:37:11.871 4uitaliaAPP[6599:122457] Unlimited access to network resources
+2015-03-20 15:37:11.897 4uitaliaAPP[6599:122457] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-20 15:37:12.067 4uitaliaAPP[6599:122457] [CDVTimer][statusbar] 66.417992ms
+2015-03-20 15:37:12.067 4uitaliaAPP[6599:122457] [CDVTimer][TotalPluginStartup] 66.605985ms
+2015-03-20 15:37:12.340 4uitaliaAPP[6599:122457] Resetting plugins due to page load.
+2015-03-20 15:37:12.755 4uitaliaAPP[6599:122457] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/810DF613-51C4-4720-A10B-007FCA56DAFF/4uitaliaAPP.app/www/LOGIN.html
+2015-03-20 15:37:15.062 4uitaliaAPP[6599:122457] Notification.confirm(string, function, string, string) is deprecated.  Use Notification.confirm(string, function, string, array).
+2015-03-20 15:37:15.091 4uitaliaAPP[6599:122457] THREAD WARNING: ['Notification'] took '28.124023' ms. Plugin should use a background thread.
+2015-03-20 15:37:15.982 4uitaliaAPP[6599:122457] THREAD WARNING: ['Notification'] took '21.943115' ms. Plugin should use a background thread.
+2015-03-20 15:37:16.055 4uitaliaAPP[6599:122457] Resetting plugins due to page load.
+2015-03-20 15:37:16.566 4uitaliaAPP[6599:122457] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/810DF613-51C4-4720-A10B-007FCA56DAFF/4uitaliaAPP.app/www/MAIN.html
+2015-03-20 15:37:22.022 4uitaliaAPP[6599:122457] Resetting plugins due to page load.
+2015-03-20 15:37:22.075 4uitaliaAPP[6599:122457] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/810DF613-51C4-4720-A10B-007FCA56DAFF/4uitaliaAPP.app/www/cargaeffect_logout.html
+2015-03-20 15:37:25.677 4uitaliaAPP[6599:122457] Resetting plugins due to page load.
+2015-03-20 15:37:25.702 4uitaliaAPP[6599:122457] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/810DF613-51C4-4720-A10B-007FCA56DAFF/4uitaliaAPP.app/www/LOGIN.html
+2015-03-20 15:37:27.600 4uitaliaAPP[6599:122457] Notification.confirm(string, function, string, string) is deprecated.  Use Notification.confirm(string, function, string, array).
+2015-03-20 15:37:27.619 4uitaliaAPP[6599:122457] THREAD WARNING: ['Notification'] took '18.497070' ms. Plugin should use a background thread.
+2015-03-20 15:37:28.793 4uitaliaAPP[6599:122457] THREAD WARNING: ['Notification'] took '16.483154' ms. Plugin should use a background thread.
+2015-03-20 15:37:28.884 4uitaliaAPP[6599:122457] Resetting plugins due to page load.
+2015-03-20 15:37:29.081 4uitaliaAPP[6599:122457] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/810DF613-51C4-4720-A10B-007FCA56DAFF/4uitaliaAPP.app/www/MAIN.html
+2015-03-20 15:37:58.019 4uitaliaAPP[6811:123310] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-20 15:37:58.043 4uitaliaAPP[6811:123310] Multi-tasking -> Device: YES, App: YES
+2015-03-20 15:37:58.060 4uitaliaAPP[6811:123310] Unlimited access to network resources
+2015-03-20 15:37:58.077 4uitaliaAPP[6811:123310] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-03-20 15:37:58.246 4uitaliaAPP[6811:123310] [CDVTimer][statusbar] 73.841989ms
+2015-03-20 15:37:58.246 4uitaliaAPP[6811:123310] [CDVTimer][TotalPluginStartup] 74.037015ms
+2015-03-20 15:37:58.488 4uitaliaAPP[6811:123310] Resetting plugins due to page load.
+2015-03-20 15:37:59.039 4uitaliaAPP[6811:123310] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/3FD7B7EB-1505-420E-AA44-AFC3A843F03B/4uitaliaAPP.app/www/LOGIN.html
+2015-03-20 15:38:01.112 4uitaliaAPP[6811:123310] Notification.confirm(string, function, string, string) is deprecated.  Use Notification.confirm(string, function, string, array).
+2015-03-20 15:38:01.142 4uitaliaAPP[6811:123310] THREAD WARNING: ['Notification'] took '29.158936' ms. Plugin should use a background thread.
+2015-03-20 15:38:02.249 4uitaliaAPP[6811:123310] THREAD WARNING: ['Notification'] took '14.660889' ms. Plugin should use a background thread.
+2015-03-20 15:38:02.296 4uitaliaAPP[6811:123310] Resetting plugins due to page load.
+2015-03-20 15:38:02.335 4uitaliaAPP[6811:123310] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/3FD7B7EB-1505-420E-AA44-AFC3A843F03B/4uitaliaAPP.app/www/LOGIN.html
+2015-03-20 15:38:06.594 4uitaliaAPP[6811:123310] Notification.confirm(string, function, string, string) is deprecated.  Use Notification.confirm(string, function, string, array).
+2015-03-20 15:38:06.616 4uitaliaAPP[6811:123310] THREAD WARNING: ['Notification'] took '21.284912' ms. Plugin should use a background thread.
+2015-03-20 15:38:07.312 4uitaliaAPP[6811:123310] THREAD WARNING: ['Notification'] took '11.810059' ms. Plugin should use a background thread.
+2015-03-20 15:38:07.416 4uitaliaAPP[6811:123310] Resetting plugins due to page load.
+2015-03-20 15:38:07.974 4uitaliaAPP[6811:123310] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/3FD7B7EB-1505-420E-AA44-AFC3A843F03B/4uitaliaAPP.app/www/MAIN.html
+2015-03-20 15:38:16.944 4uitaliaAPP[6811:123310] Resetting plugins due to page load.
+2015-03-20 15:38:17.029 4uitaliaAPP[6811:123310] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/3FD7B7EB-1505-420E-AA44-AFC3A843F03B/4uitaliaAPP.app/www/cargaeffect_logout.html
+2015-03-20 15:38:20.630 4uitaliaAPP[6811:123310] Resetting plugins due to page load.
+2015-03-20 15:38:20.653 4uitaliaAPP[6811:123310] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/3FD7B7EB-1505-420E-AA44-AFC3A843F03B/4uitaliaAPP.app/www/LOGIN.html
+2015-03-20 15:43:33.580 4uitaliaAPP[6811:123310] Notification.confirm(string, function, string, string) is deprecated.  Use Notification.confirm(string, function, string, array).
+2015-03-20 15:43:33.679 4uitaliaAPP[6811:123310] THREAD WARNING: ['Console'] took '99.125244' ms. Plugin should use a background thread.
+2015-03-20 15:43:33.710 4uitaliaAPP[6811:123310] THREAD WARNING: ['Notification'] took '30.104980' ms. Plugin should use a background thread.
+2015-03-20 15:43:39.909 4uitaliaAPP[6811:123310] THREAD WARNING: ['Notification'] took '15.846680' ms. Plugin should use a background thread.
+2015-03-20 15:43:39.988 4uitaliaAPP[6811:123310] Resetting plugins due to page load.
+2015-03-20 15:43:40.089 4uitaliaAPP[6811:123310] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/3FD7B7EB-1505-420E-AA44-AFC3A843F03B/4uitaliaAPP.app/www/LOGIN.html
+2015-03-20 16:09:17.758 4uitaliaAPP[6811:123310] Notification.confirm(string, function, string, string) is deprecated.  Use Notification.confirm(string, function, string, array).
+2015-03-20 16:09:17.770 4uitaliaAPP[6811:123310] THREAD WARNING: ['Console'] took '12.322021' ms. Plugin should use a background thread.
+2015-03-20 16:09:17.796 4uitaliaAPP[6811:123310] THREAD WARNING: ['Notification'] took '25.464111' ms. Plugin should use a background thread.
+2015-03-20 16:09:20.025 4uitaliaAPP[6811:123310] THREAD WARNING: ['Notification'] took '19.026855' ms. Plugin should use a background thread.
+2015-03-20 16:09:20.073 4uitaliaAPP[6811:123310] Resetting plugins due to page load.
+2015-03-20 16:09:20.285 4uitaliaAPP[6811:123310] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/3FD7B7EB-1505-420E-AA44-AFC3A843F03B/4uitaliaAPP.app/www/MAIN.html
+2015-03-20 16:10:37.570 4uitaliaAPP[6811:123310] Resetting plugins due to page load.
+2015-03-20 16:10:37.785 4uitaliaAPP[6811:123310] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/3FD7B7EB-1505-420E-AA44-AFC3A843F03B/4uitaliaAPP.app/www/Template.html?project=Mediaset
+2015-03-20 16:10:37.842 4uitaliaAPP[6811:123310] ERROR: Plugin 'ScreenOrientation' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-03-20 16:10:37.842 4uitaliaAPP[6811:123310] -[CDVCommandQueue executePending] [Line 159] FAILED pluginJSON = ["INVALID","ScreenOrientation","set",["fullSensor"]]
+2015-04-02 18:02:38.063 4uitaliaAPP[35168:4819897] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-02 18:02:38.092 4uitaliaAPP[35168:4819897] Multi-tasking -> Device: YES, App: YES
+2015-04-02 18:02:38.142 4uitaliaAPP[35168:4819897] Unlimited access to network resources
+2015-04-02 18:02:38.198 4uitaliaAPP[35168:4819897] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-02 18:02:39.928 4uitaliaAPP[35168:4819897] [CDVTimer][statusbar] 376.459002ms
+2015-04-02 18:02:39.928 4uitaliaAPP[35168:4819897] [CDVTimer][TotalPluginStartup] 376.769006ms
+2015-04-02 18:02:40.660 4uitaliaAPP[35168:4819897] Resetting plugins due to page load.
+2015-04-02 18:02:42.195 4uitaliaAPP[35168:4819897] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/577C8A3F-59CE-4761-A5EF-BCF4294C2B47/4uitaliaAPP.app/www/LOGIN.html
+2015-04-02 18:06:29.329 4uitaliaAPP[35168:4819897] Resetting plugins due to page load.
+2015-04-02 18:06:31.974 4uitaliaAPP[35168:4819897] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/577C8A3F-59CE-4761-A5EF-BCF4294C2B47/4uitaliaAPP.app/www/MAIN.html
+2015-04-02 18:06:32.358 4uitaliaAPP[35168:4819897] ERROR: Plugin 'ScreenOrientation' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-04-02 18:06:32.359 4uitaliaAPP[35168:4819897] -[CDVCommandQueue executePending] [Line 159] FAILED pluginJSON = ["INVALID","ScreenOrientation","set",["nosensor"]]
+2015-04-02 18:06:38.366 4uitaliaAPP[35168:4819897] Resetting plugins due to page load.
+2015-04-02 18:06:39.251 4uitaliaAPP[35168:4819897] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/577C8A3F-59CE-4761-A5EF-BCF4294C2B47/4uitaliaAPP.app/www/Template.html?project=Vodafone_Out
+2015-04-02 18:06:39.501 4uitaliaAPP[35168:4819897] ERROR: Plugin 'ScreenOrientation' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-04-02 18:06:39.502 4uitaliaAPP[35168:4819897] -[CDVCommandQueue executePending] [Line 159] FAILED pluginJSON = ["INVALID","ScreenOrientation","set",["fullSensor"]]
+2015-04-02 18:06:49.188 4uitaliaAPP[35168:4819897] ERROR: Plugin 'ScreenOrientation' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-04-02 18:06:49.189 4uitaliaAPP[35168:4819897] -[CDVCommandQueue executePending] [Line 159] FAILED pluginJSON = ["INVALID","ScreenOrientation","set",["portrait"]]
+2015-04-02 18:06:49.194 4uitaliaAPP[35168:4819897] Resetting plugins due to page load.
+2015-04-02 18:06:51.030 4uitaliaAPP[35168:4819897] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/577C8A3F-59CE-4761-A5EF-BCF4294C2B47/4uitaliaAPP.app/www/NOTIFICATIONS.html
+2015-04-02 18:07:04.305 4uitaliaAPP[35168:4819897] Resetting plugins due to page load.
+2015-04-02 18:07:04.482 4uitaliaAPP[35168:4819897] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/577C8A3F-59CE-4761-A5EF-BCF4294C2B47/4uitaliaAPP.app/www/MAIN.html
+2015-04-02 18:07:04.576 4uitaliaAPP[35168:4819897] ERROR: Plugin 'ScreenOrientation' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-04-02 18:07:04.576 4uitaliaAPP[35168:4819897] -[CDVCommandQueue executePending] [Line 159] FAILED pluginJSON = ["INVALID","ScreenOrientation","set",["nosensor"]]
+2015-04-02 18:24:09.551 4uitaliaAPP[35168:4819897] Resetting plugins due to page load.
+2015-04-02 18:24:09.660 4uitaliaAPP[35168:4819897] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/577C8A3F-59CE-4761-A5EF-BCF4294C2B47/4uitaliaAPP.app/www/cargaeffect_logout.html
+2015-04-02 18:24:13.261 4uitaliaAPP[35168:4819897] Resetting plugins due to page load.
+2015-04-02 18:24:13.321 4uitaliaAPP[35168:4819897] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/577C8A3F-59CE-4761-A5EF-BCF4294C2B47/4uitaliaAPP.app/www/LOGIN.html
+2015-04-02 18:24:44.954 4uitaliaAPP[35168:4819897] Resetting plugins due to page load.
+2015-04-02 18:24:45.153 4uitaliaAPP[35168:4819897] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/577C8A3F-59CE-4761-A5EF-BCF4294C2B47/4uitaliaAPP.app/www/MAIN.html
+2015-04-02 18:24:45.264 4uitaliaAPP[35168:4819897] ERROR: Plugin 'ScreenOrientation' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-04-02 18:24:45.264 4uitaliaAPP[35168:4819897] -[CDVCommandQueue executePending] [Line 159] FAILED pluginJSON = ["INVALID","ScreenOrientation","set",["nosensor"]]
+2015-04-02 18:27:53.113 4uitaliaAPP[35576:4917221] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-02 18:27:53.148 4uitaliaAPP[35576:4917221] Multi-tasking -> Device: YES, App: YES
+2015-04-02 18:27:53.164 4uitaliaAPP[35576:4917221] Unlimited access to network resources
+2015-04-02 18:27:53.183 4uitaliaAPP[35576:4917221] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-02 18:27:53.413 4uitaliaAPP[35576:4917221] [CDVTimer][statusbar] 108.982027ms
+2015-04-02 18:27:53.413 4uitaliaAPP[35576:4917221] [CDVTimer][TotalPluginStartup] 109.160006ms
+2015-04-02 18:27:53.694 4uitaliaAPP[35576:4917221] Resetting plugins due to page load.
+2015-04-02 18:27:54.237 4uitaliaAPP[35576:4917221] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/7168422D-C776-444B-B4E6-6075025DAEE6/4uitaliaAPP.app/www/LOGIN.html
+2015-04-02 18:28:00.024 4uitaliaAPP[35576:4917221] Resetting plugins due to page load.
+2015-04-02 18:28:00.350 4uitaliaAPP[35576:4917221] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/7168422D-C776-444B-B4E6-6075025DAEE6/4uitaliaAPP.app/www/MAIN.html
+2015-04-02 18:28:00.372 4uitaliaAPP[35576:4917221] ERROR: Plugin 'ScreenOrientation' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-04-02 18:28:00.372 4uitaliaAPP[35576:4917221] -[CDVCommandQueue executePending] [Line 159] FAILED pluginJSON = ["INVALID","ScreenOrientation","set",["nosensor"]]
+2015-04-02 19:01:53.745 4uitaliaAPP[35576:4917221] Resetting plugins due to page load.
+2015-04-02 19:01:54.051 4uitaliaAPP[35576:4917221] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/7168422D-C776-444B-B4E6-6075025DAEE6/4uitaliaAPP.app/www/Template.html?project=Vodafone_Out
+2015-04-02 19:01:54.391 4uitaliaAPP[35576:4917221] ERROR: Plugin 'ScreenOrientation' not found, or is not a CDVPlugin. Check your plugin mapping in config.xml.
+2015-04-02 19:01:54.391 4uitaliaAPP[35576:4917221] -[CDVCommandQueue executePending] [Line 159] FAILED pluginJSON = ["INVALID","ScreenOrientation","set",["fullSensor"]]
+2015-04-02 19:44:36.293 4uitaliaAPP[36612:5254833] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-02 19:44:36.317 4uitaliaAPP[36612:5254833] Multi-tasking -> Device: YES, App: YES
+2015-04-02 19:44:36.339 4uitaliaAPP[36612:5254833] Unlimited access to network resources
+2015-04-02 19:44:36.411 4uitaliaAPP[36612:5254833] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-02 19:44:36.780 4uitaliaAPP[36612:5254833] [CDVTimer][statusbar] 187.251031ms
+2015-04-02 19:44:36.781 4uitaliaAPP[36612:5254833] [CDVTimer][TotalPluginStartup] 187.473953ms
+2015-04-02 19:44:37.243 4uitaliaAPP[36612:5254833] Resetting plugins due to page load.
+2015-04-02 19:44:38.105 4uitaliaAPP[36612:5254833] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/8B0847C6-930D-4154-859D-337E97D6747A/4uitaliaAPP.app/www/LOGIN.html
+2015-04-02 19:55:13.754 4uitaliaAPP[37256:5300008] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-02 19:55:13.812 4uitaliaAPP[37256:5300008] Multi-tasking -> Device: YES, App: YES
+2015-04-02 19:55:13.903 4uitaliaAPP[37256:5300008] Unlimited access to network resources
+2015-04-02 19:55:13.945 4uitaliaAPP[37256:5300008] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-02 19:55:14.352 4uitaliaAPP[37256:5300008] [CDVTimer][statusbar] 102.545023ms
+2015-04-02 19:55:14.353 4uitaliaAPP[37256:5300008] [CDVTimer][TotalPluginStartup] 102.744997ms
+2015-04-02 19:55:14.711 4uitaliaAPP[37256:5300008] Resetting plugins due to page load.
+2015-04-02 19:55:15.859 4uitaliaAPP[37256:5300008] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/6E6C2A4C-9CA6-4970-B6DD-BA6A5ABBC20E/4uitaliaAPP.app/www/LOGIN.html
+2015-04-02 19:56:40.834 4uitaliaAPP[37490:5312151] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-02 19:56:40.835 4uitaliaAPP[37490:5312151] Multi-tasking -> Device: YES, App: YES
+2015-04-02 19:56:40.847 4uitaliaAPP[37490:5312151] Unlimited access to network resources
+2015-04-02 19:56:40.850 4uitaliaAPP[37490:5312151] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-02 19:56:40.971 4uitaliaAPP[37490:5312151] [CDVTimer][statusbar] 18.159032ms
+2015-04-02 19:56:40.971 4uitaliaAPP[37490:5312151] [CDVTimer][TotalPluginStartup] 18.366992ms
+2015-04-02 19:56:41.052 4uitaliaAPP[37490:5312151] Resetting plugins due to page load.
+2015-04-02 19:56:41.239 4uitaliaAPP[37490:5312151] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/33954526-53E3-4741-920B-8B831597FEAF/4uitaliaAPP.app/www/LOGIN.html
+2015-04-02 20:00:57.072 4uitaliaAPP[37731:5343719] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-02 20:00:57.094 4uitaliaAPP[37731:5343719] Multi-tasking -> Device: YES, App: YES
+2015-04-02 20:00:57.118 4uitaliaAPP[37731:5343719] Unlimited access to network resources
+2015-04-02 20:00:57.127 4uitaliaAPP[37731:5343719] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-02 20:00:57.314 4uitaliaAPP[37731:5343719] [CDVTimer][statusbar] 67.332029ms
+2015-04-02 20:00:57.314 4uitaliaAPP[37731:5343719] [CDVTimer][TotalPluginStartup] 67.607999ms
+2015-04-02 20:00:57.605 4uitaliaAPP[37731:5343719] Resetting plugins due to page load.
+2015-04-02 20:00:58.373 4uitaliaAPP[37731:5343719] Finished load of: file:///Users/bocciccio/Library/Developer/CoreSimulator/Devices/147EA861-60A1-4CF0-B450-C2280CD5256B/data/Containers/Bundle/Application/C5DB0835-B22F-4304-91DF-7BF7617390D8/4uitaliaAPP.app/www/LOGIN.html
